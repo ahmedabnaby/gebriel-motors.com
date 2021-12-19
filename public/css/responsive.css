@@ -1,0 +1,21 @@
+@media screen and (max-width:1365px) {
+    .panel .sections .menu li a
+    {
+        font-size: 17px;
+    }
+    .desktopButton.desktopActionButton
+    {
+        top: 16px !important;
+    }
+}
+@media screen and (max-width:1200px) {
+    .panel .sections .menu li a
+    {
+        font-size: 13px;
+        margin-left: 55px;
+    }
+    .desktopButton.desktopActionButton
+    {
+        top: 16px !important;
+    }
+}

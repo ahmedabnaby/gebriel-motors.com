@@ -1,0 +1,91 @@
+/* FONTS */
+@font-face {
+    font-family: 'Resolve-RegularNrw';
+    src: url(../fonts/Resolve-RegularNrw.otf);
+  }
+  
+  @font-face {
+    font-family: 'Resolve-BoldCnIta';
+    src: url(../fonts/Resolve-BoldCnIta.otf);
+  }
+  
+  @font-face {
+    font-family: 'Suisse Int-semi-bold';
+    src: url(../fonts/Suisse-Intl-SemiBold.otf);
+  }
+  
+  @font-face {
+    font-family: 'Suisse Int-regular';
+    src: url(../fonts/Suisse-Intl-Regular.otf);
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.Selected
+{
+    color: #f15632 !important;
+    text-decoration: underline;
+}
+.mainSection h1
+{
+  font-size: 222px;
+  font-family: 'Resolve-BoldCnIta';
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 160px;
+  letter-spacing: 0.3px;
+}
+.mainSection h3
+{
+  margin-top: 35px;
+  font-size: 25px;
+  font-family: 'Suisse Int-semi-bold';
+  text-align: left;
+  color: #f15632 !important;
+}
+.mainSection p
+{
+  font-family: 'Suisse Int-regular';
+  width: 25%;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.spanOrange
+{
+  color: #f15632 !important;
+}
+.contact-us
+{
+  position: absolute;
+  top: 405px;
+  right: 0;
+  font-size: 25px;
+  font-family: "Resolve-RegularNrw";
+  letter-spacing: 0.5px;
+  display:block;
+  -webkit-transform: rotate(90deg); 
+  -moz-transform: rotate(90deg); 
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.contact-us:hover
+{
+  color: #f15632 !important;
+}
+.arrowWIDTH
+{
+  position: relative;
+  top: -35px !important;
+  left: 140px;
+  display:block;
+  -webkit-transform: rotate(-90deg) !important; 
+  -moz-transform: rotate(-90deg) !important; 
+  width: 25px !important;
+}
