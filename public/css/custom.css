@@ -18,54 +18,61 @@
     font-family: 'Suisse Int-regular';
     src: url(../fonts/Suisse-Intl-Regular.otf);
 }
-
+.slide
+{
+  background-color: #000 !important;
+}
+.logo
+{
+  padding-top: 0px;
+}
 #myVideo {
     position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    right: 15%;
+    top: -100px;
+    min-width: 50%;
+    min-height: 50%;
 }
 .Selected
 {
-    color: #f15632 !important;
+    color: #ff4713 !important;
     text-decoration: underline;
+}
+.mainSection
+{
+  position: relative;
+  left: 45%;
+  top: 75px;
 }
 .mainSection h1
 {
-  font-size: 222px;
+  font-size: 160px;
   font-family: 'Resolve-BoldCnIta';
   text-transform: uppercase;
   text-align: left;
-  line-height: 160px;
+  line-height: 120px;
   letter-spacing: 0.3px;
+  color: #e5e1e6;
 }
-.mainSection h3
+.mainSection h2
 {
-  margin-top: 35px;
-  font-size: 25px;
-  font-family: 'Suisse Int-semi-bold';
+  font-size: 30px;
+  font-family: 'Resolve-RegularNrw';
   text-align: left;
-  color: #f15632 !important;
-}
-.mainSection p
-{
-  font-family: 'Suisse Int-regular';
-  width: 25%;
-  font-size: 13px;
-  letter-spacing: 0.2px;
-  text-align: left;
+  letter-spacing: 0.3px;
+  position: relative;
+  left: 10%;
 }
 .spanOrange
 {
-  color: #f15632 !important;
+  color: #ff4713 !important;
 }
 .contact-us
 {
   position: absolute;
-  top: 405px;
-  right: 0;
-  font-size: 25px;
+  top: 455px;
+  right: 0.5%;
+  font-size: 20px;
   font-family: "Resolve-RegularNrw";
   letter-spacing: 0.5px;
   display:block;
@@ -77,15 +84,15 @@
 }
 .contact-us:hover
 {
-  color: #f15632 !important;
+  color: #ff4713 !important;
 }
 .arrowWIDTH
 {
   position: relative;
-  top: -35px !important;
-  left: 140px;
+  top: -29px !important;
+  left: 120px;
   display:block;
   -webkit-transform: rotate(-90deg) !important; 
   -moz-transform: rotate(-90deg) !important; 
-  width: 25px !important;
+  width: 20px !important;
 }

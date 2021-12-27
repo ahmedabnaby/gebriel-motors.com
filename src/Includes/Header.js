@@ -19,7 +19,7 @@ function Header() {
         {/* <svg style={{ width: 82, height: 24 }}>
           <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#logo" />
         </svg> */}
-        <img style={{ width: 150, height: 55 , paddingTop:10}} src="assets/gebriel-motors/logo.png" role="..." alt="..."/>
+        <img className="logo" src="assets/gebriel-motors/logo.png" role="..." alt="..."/>
       </a>
     </div>
     <div className="center">
@@ -34,16 +34,16 @@ function Header() {
           <a className="Selected" href="/">Home</a>
         </li>
         <li>
-          <a href="/veichles">Veichles</a>
+          <a href="/our-company">Our Company</a>
         </li>
         <li>
-          <a href="/products">Products</a>
+          <a href="/products">Our Products</a>
         </li>
         <li>
-          <a href="/services">Services</a>
+          <a href="/why-us">Why Us</a>
         </li>
         <li>
-          <a href="/our-benfits">Our Benfits</a>
+          <a href="/contact-us">Contact Us</a>
         </li>
         <li>
             <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
@@ -51,22 +51,22 @@ function Header() {
             </a>
         </li>
       </ul>
-        : location.pathname === "/veichles" ? 
+        : location.pathname === "/our-company" ? 
         <ul className="menu uppercase">
         <li>
           <a href="/">Home</a>
         </li>
         <li>
-          <a className="Selected" href="/veichles">Veichles</a>
+          <a className="Selected" href="/our-company">Our Company</a>
         </li>
         <li>
-          <a href="/products">Products</a>
+          <a href="/products">Our Products</a>
         </li>
         <li>
-          <a href="/services">Services</a>
+          <a href="/why-us">Why Us</a>
         </li>
         <li>
-          <a href="/our-benfits">Our Benfits</a>
+          <a href="/contact-us">Contact Us</a>
         </li>
         <li>
             <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
@@ -80,16 +80,16 @@ function Header() {
         <a href="/">Home</a>
       </li>
       <li>
-        <a href="/veichles">Veichles</a>
+        <a href="/our-company">Our Company</a>
       </li>
       <li>
-        <a className="Selected" href="/products">Products</a>
+        <a className="Selected" href="/products">Our Products</a>
       </li>
       <li>
-        <a href="/services">Services</a>
+        <a href="/why-us">Why Us</a>
       </li>
       <li>
-          <a href="/our-benfits">Our Benfits</a>
+          <a href="/contact-us">Contact Us</a>
         </li>
       <li>
           <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
@@ -97,22 +97,22 @@ function Header() {
           </a>
       </li>
     </ul>
-    : location.pathname === "/services" ? 
+    : location.pathname === "/why-us" ? 
     <ul className="menu uppercase">
       <li>
         <a href="/">Home</a>
       </li>
       <li>
-        <a href="/veichles">Veichles</a>
+        <a href="/our-company">Our Company</a>
       </li>
       <li>
-        <a href="/products">Products</a>
+        <a href="/products">Our Products</a>
       </li>
       <li>
-        <a className="Selected" href="/services">Services</a>
+        <a className="Selected" href="/why-us">Why Us</a>
       </li>
       <li>
-          <a href="/our-benfits">Our Benfits</a>
+          <a href="/contact-us">Contact Us</a>
         </li>
       <li>
           <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
@@ -120,22 +120,22 @@ function Header() {
           </a>
       </li>
     </ul>
-    : location.pathname === "/our-benfits" ? 
+    : location.pathname === "/contact-us" ? 
     <ul className="menu uppercase">
       <li>
         <a href="/">Home</a>
       </li>
       <li>
-        <a href="/veichles">Veichles</a>
+        <a href="/our-company">Our Company</a>
       </li>
       <li>
-        <a href="/products">Products</a>
+        <a href="/products">Our Products</a>
       </li>
       <li>
-        <a href="/services">Services</a>
+        <a href="/why-us">Why Us</a>
       </li>
       <li>
-          <a className="Selected" href="/our-benfits">Our Benfits</a>
+          <a className="Selected" href="/contact-us">Contact Us</a>
         </li>
       <li>
           <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>

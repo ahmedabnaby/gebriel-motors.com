@@ -7,21 +7,22 @@ function Home() {
           <div className="content">
             <div className="container">
               <div className="wrap">
-                <div className="fix-12-12 mainSection">
-                  <div className="fix-12-12">
+                <div className="fix-12-12 ">
+                  <div className="fix-12-12 mainSection">
                     <h1 className='wide fromCenter'>
-                      <span className='spanOrange ae-1'>get right </span> 
-                      <span className='ae-5'>to the </span>
-                      <span className='ae-8'>good </span>
-                      <span className='ae-10'>parts</span>
+                      <span className='ae-1'>get right </span> 
+                      <span className='ae-5'>to the <br/> </span>
+                      <span className='spanOrange ae-8'>good </span>
+                      <span className='spanOrange ae-10'>parts</span>
                       </h1>
+                      <h2 className='wide fromCenter ae-10'>Where parts are the trades, and quality <br/> is the merchandise.</h2>
                   </div>
-                  <div className="ae-10 fromCenter">
+                  {/* <div className="ae-10 fromCenter">
                     <h3>Head lines goes here</h3>
                   </div>
                   <p className="ae-10">
                     Con periore iunturi con cusdanducit ut experioris et unt volupta sitatemped quam est, aligent laboriorem. Oribusa pictur alique qui doloribeatus ad que consecumquam estrum verit facia num rem commolore, sae maionsed
-                  </p>
+                  </p> */}
                   <a href="#down" className="contact-us">contact us <img src="assets/gebriel-motors/arrow.png" className="arrowWIDTH" alt="..." /> </a>
                 </div>
               </div>
@@ -36,7 +37,7 @@ function Home() {
             style={{ backgroundColor: "black" }}
           /> */}
           <video autoPlay muted loop playsInline id="myVideo">
-          <source src="assets/trial2.mp4" type="video/mp4" />
+          <source src="assets/car-engine2.mp4" type="video/mp4" />
         </video>
         </section>
 
@@ -45,22 +46,23 @@ function Home() {
         <div className="content">
             <div className="container">
               <div className="wrap">
-                <div className="fix-12-12 mainSection">
-                  <div className="fix-12-12">
+              <div className="fix-12-12 ">
+                  <div className="fix-12-12 mainSection">
                     <h1 className='wide fromCenter'>
-
-                      <span className='spanOrange ae-1'>Value is </span> 
-                      <span className='ae-5'>the </span>
-                      <span className='ae-7'>good </span>
-                      <span className='ae-10'>parts </span>
+                      <span className='ae-1'>Value is </span> 
+                      <span className='ae-5'>what <br/> </span>
+                      <span className='spanOrange ae-8'>you </span>
+                      <span className='spanOrange ae-10'>get</span>
                       </h1>
+                      <h2 className='wide fromCenter ae-10'>Supplying quality is our commitment,<br/>products grade is our promise.</h2>
                   </div>
-                  <div className="ae-10 fromCenter">
+                  {/* <div className="ae-10 fromCenter">
                     <h3>Head lines goes here</h3>
                   </div>
                   <p className="ae-10">
                     Con periore iunturi con cusdanducit ut experioris et unt volupta sitatemped quam est, aligent laboriorem. Oribusa pictur alique qui doloribeatus ad que consecumquam estrum verit facia num rem commolore, sae maionsed
-                  </p>
+                  </p> */}
+                  <a href="#down" className="contact-us">contact us <img src="assets/gebriel-motors/arrow.png" className="arrowWIDTH" alt="..." /> </a>
                 </div>
               </div>
             </div>
@@ -74,7 +76,7 @@ function Home() {
             style={{ backgroundColor: "black" }}
           /> */}
           <video autoPlay muted loop playsInline id="myVideo">
-          <source src="assets/trial.mp4" type="video/mp4" />
+          <source src="assets/car-engine2.mp4" type="video/mp4" />
         </video>
         </section>
 
@@ -82,22 +84,22 @@ function Home() {
         <div className="content">
             <div className="container">
               <div className="wrap">
-                <div className="fix-12-12 mainSection">
-                  <div className="fix-12-12">
+              <div className="fix-12-12 ">
+                  <div className="fix-12-12 mainSection">
                     <h1 className='wide fromCenter'>
-
-                      <span className='spanOrange ae-1'>Whatever </span> 
-                      <span className='ae-5'>your </span>
-                      <span className='ae-8'>car </span>
-                      <span className='ae-10'>needs </span>
+                      <span className='ae-1'>All Your <br/></span> 
+                      <span className='spanOrange ae-5'>Veichle </span>
+                      <span className='ae-8'>Needs </span>
                       </h1>
+                      <h2 className='wide fromCenter ae-10'>Is our dedication till parts fall<br/>into places.</h2>
                   </div>
-                  <div className="ae-10 fromCenter">
+                  {/* <div className="ae-10 fromCenter">
                     <h3>Head lines goes here</h3>
                   </div>
                   <p className="ae-10">
                     Con periore iunturi con cusdanducit ut experioris et unt volupta sitatemped quam est, aligent laboriorem. Oribusa pictur alique qui doloribeatus ad que consecumquam estrum verit facia num rem commolore, sae maionsed
-                  </p>
+                  </p> */}
+                  <a href="#down" className="contact-us">contact us <img src="assets/gebriel-motors/arrow.png" className="arrowWIDTH" alt="..." /> </a>
                 </div>
               </div>
             </div>
@@ -111,10 +113,10 @@ function Home() {
             style={{ backgroundColor: "black" }}
           /> */}
           <video autoPlay muted loop playsInline id="myVideo">
-          <source src="assets/trial3.mp4" type="video/mp4" />
+          <source src="assets/car-engine2.mp4" type="video/mp4" />
         </video>
         </section>
-
+  
       </div>
     )
   }
