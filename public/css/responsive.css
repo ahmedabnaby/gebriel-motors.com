@@ -183,12 +183,12 @@
             top: 50px !important;
             min-width: 55% !important;
             min-height: 55% !important;
-            width:105% !important;
+            width:95% !important;
         }
         .contact-us
         {
         position: absolute;
-        top: 385px !important;
+        top: 225px !important;
         right: 0.5%;
         font-size: 20px;
         letter-spacing: 0.5px;
@@ -217,7 +217,7 @@
         {
         position: relative;
         left: 30% !important;
-        top: 75px !important;
+        top: 35px !important;
         }
       .mainSection h1
         {
@@ -227,17 +227,26 @@
         }
         .mainSection h2
         {
-        font-size: 25px !important;
+        font-size: 20px !important;
         letter-spacing: 0.3px;
+        margin-top: -15px;
         left: 10%;
         }
         #myVideo {
             position: fixed;
-            right: -5% !important;
-            top: 0px !important;
+            right: -2% !important;
+            top: 55px !important;
             min-width: 55% !important;
             min-height: 55% !important;
-            width:125% !important;
+            width:115% !important;
+        }
+        .contact-us
+        {
+        position: absolute;
+        top: 285px !important;
+        right: 0.5%;
+        font-size: 20px;
+        letter-spacing: 0.5px;
         }
 }
 @media screen and (max-width:991px) {
