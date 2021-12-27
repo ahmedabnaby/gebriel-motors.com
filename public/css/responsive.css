@@ -255,17 +255,46 @@
         padding-top: 15px !important;
     }
     .panel .sections {
-        padding-left: 75px;
-        padding-right: 75px;
+        padding-left: 25px;
+        padding-right: 25px;
         padding-top: 10px;
     }
     .mainSection
     {
     position: relative;
     left: 30% !important;
-    top: -150px !important;
+    top: 50px !important;
     }
-    
+    .mainSection h1
+    {
+    font-size: 80px !important;
+    line-height: 65px !important;
+    letter-spacing: 0.3px;
+    }
+    .mainSection h2
+    {
+    font-size: 20px !important;
+    letter-spacing: 0.3px;
+    left: 0 !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    .contact-us
+        {
+        position: absolute;
+        top: 205px !important;
+        right: 0.5%;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        }
+        #myVideo {
+            position: fixed;
+            right: 5% !important;
+            top: 0px !important;
+            min-width: 55% !important;
+            min-height: 55% !important;
+            width:105% !important;
+        }
 }
 
 @media screen and (max-width:768px) {
