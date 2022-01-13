@@ -33,6 +33,14 @@
     min-width: 50%;
     min-height: 50%;
 }
+#myVideoOrange
+{
+  position: fixed;
+    right: 0%;
+    top: 0vh;
+    min-width: 100%;
+    min-height: 100%;
+}
 .Selected
 {
     color: #ff4713 !important;
@@ -42,7 +50,7 @@
 {
   position: relative;
   left: 45%;
-  top: 15vh;
+  top: 5vh;
 }
 .mainSection h1
 {
@@ -95,4 +103,117 @@
   -webkit-transform: rotate(-90deg) !important; 
   -moz-transform: rotate(-90deg) !important; 
   width: 20px !important;
+}
+.mainSection2
+{
+  position: absolute;
+  left: 0;
+  top: 20vh;
+}
+.mainSection2 h1
+{
+  font-size: 160px;
+  font-family: 'Resolve-BoldCnIta';
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 120px;
+  letter-spacing: 0.3px;
+  color: #e5e1e6;
+}
+.mainSection2 h2
+{
+  font-size: 30px;
+  font-family: 'Resolve-RegularNrw';
+  text-align: left;
+  letter-spacing: 0.3px;
+  position: relative;
+  left: 10%;
+}
+.second-section
+{
+  position: relative;
+  top: 5vh !important;
+}
+.subtitle
+{
+  text-align: left;
+  font-family: "Resolve-RegularNrw";
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #ff4713;
+  font-weight: 550;
+  padding-bottom: 5px;
+}
+.subtitle-product
+{
+  text-align: left;
+  font-family: "Resolve-RegularNrw";
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #ff4713;
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+.paragraph-product
+{
+  text-align: left;
+  font-family: "Resolve-RegularNrw";
+  font-size: 25px;
+  font-weight: 300;
+}
+.paragraph
+{
+  text-align: left;
+  font-family: "Suisse Int-regular";
+  font-size: 15px;
+  font-weight: 300;
+}
+.know-more
+{
+  text-transform: uppercase;
+  color: #54565a;
+  font-family: "Suisse Int-regular";
+  font-weight: 300;
+  text-align: left;
+  text-decoration: underline;
+  position: absolute;
+  font-size: 18px;
+  left: 5px;
+  padding-top: 5px;
+}
+.details
+{
+  font-family: "Resolve-BoldCnIta";
+  font-size: 27px;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 55px;
+  color: #54565a;
+}
+.product-name
+{
+  font-family: "Resolve-BoldCnIta";
+  font-size: 20px;
+}
+.product-a
+{
+  color:white !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+}
+.products-row
+{
+  position: relative;
+  left: -20px;
+}
+.float-right
+{
+  position: relative;
+  left: 20%;
+}
+.margin-top
+{
+  position: relative;
+  top: 10vh;
 }

@@ -1891,7 +1891,7 @@ html.mobile .showForMobileInline {
   font-size: 0;
   padding-left: 175px;
   padding-right: 175px;
-  padding-top: 18px;
+  padding-top: 33px;
 }
 .panel .sections > div {
   display: table-cell;
@@ -1969,11 +1969,13 @@ html.mobile .showForMobileInline {
   position: relative;
   top: 15px;
   font-weight: 200 !important;
+  text-decoration: none;
 
 }
 .panel .sections .menu li a:hover {
   opacity: 1;
   color: #f15632;
+  text-decoration: none;
 }
 .panel .sections .menu.uppercase li {
   letter-spacing: 0.125em;
