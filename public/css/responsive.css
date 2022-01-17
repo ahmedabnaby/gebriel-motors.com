@@ -95,6 +95,7 @@
         font-size: 20px;
         letter-spacing: 0.5px;
         }
+
 }
 @media screen and (max-width:1679px) {
     .panel .sections .menu li a
@@ -174,6 +175,45 @@
         padding-top: 5px;
         left: 3px !important;
         }
+        .subtitle-product
+        {
+        font-size: 25px !important;
+        padding-bottom: 5px;
+        }
+        .paragraph-product
+        {
+        text-align: left;
+        font-family: "Resolve-RegularNrw";
+        font-size: 17px !important;
+        font-weight: 300;
+        }
+        .see-more
+        {
+        font-size: 13px !important;
+        padding-top: 25px !important;
+        }
+        .details
+        {
+        font-size: 24px !important;
+        margin-top: 25px !important;
+        }
+        .product-name
+        {
+        font-size: 17px !important;
+        }
+        .product-a
+        {
+        color:white !important;
+        text-transform: uppercase !important;
+        text-decoration: none !important;
+        }
+        .products-row
+        {
+        position: relative;
+        left: -65px !important;
+        padding-left: 55px !important;
+        padding-right: 55px !important;
+        }
         .float-right
         {
         position: relative;
@@ -183,6 +223,15 @@
         {
         position: relative;
         top: 10vh;
+        }
+        .why-us-img-padding
+        {
+          left: 20% !important;
+          width: 75%;
+        }
+        .react-multiple-carousel__arrow--right
+        {
+            margin-right: 85px !important;
         }
 }
 @media screen and (max-width:1365px) {
@@ -262,6 +311,45 @@
         font-size: 12px !important;
         padding-top: 5px;
         }
+        .subtitle-product
+        {
+        font-size: 25px !important;
+        padding-bottom: 5px;
+        }
+        .paragraph-product
+        {
+        text-align: left;
+        font-family: "Resolve-RegularNrw";
+        font-size: 17px !important;
+        font-weight: 300;
+        }
+        .see-more
+        {
+        font-size: 13px !important;
+        padding-top: 25px !important;
+        }
+        .details
+        {
+        font-size: 22px !important;
+        margin-top: 25px !important;
+        }
+        .product-name
+        {
+        font-size: 17px !important;
+        }
+        .product-a
+        {
+        color:white !important;
+        text-transform: uppercase !important;
+        text-decoration: none !important;
+        }
+        .products-row
+        {
+        position: relative;
+        left: -65px !important;
+        padding-left: 55px !important;
+        padding-right: 55px !important;
+        }
         .float-right
         {
         position: relative;
@@ -271,6 +359,15 @@
         {
         position: relative;
         top: 10vh;
+        }
+        .why-us-img-padding
+        {
+          left: 22% !important;
+          width: 75%;
+        }
+        .react-multiple-carousel__arrow--right
+        {
+            margin-right: 85px !important;
         }
 }
 @media screen and (max-width:1200px) {
@@ -308,7 +405,7 @@
         {
         font-size: 20px !important;
         letter-spacing: 0.3px;
-        margin-top: -15px;
+        margin-top: 5px;
         left: 10%;
         }
         #myVideo {
@@ -357,6 +454,45 @@
         font-size: 12px !important;
         padding-top: 5px;
         }
+        .subtitle-product
+        {
+        font-size: 25px !important;
+        padding-bottom: 5px;
+        }
+        .paragraph-product
+        {
+        text-align: left;
+        font-family: "Resolve-RegularNrw";
+        font-size: 17px !important;
+        font-weight: 300;
+        }
+        .see-more
+        {
+        font-size: 13px !important;
+        padding-top: 5px !important;
+        }
+        .details
+        {
+        font-size: 22px !important;
+        margin-top: 25px !important;
+        }
+        .product-name
+        {
+        font-size: 17px !important;
+        }
+        .product-a
+        {
+        color:white !important;
+        text-transform: uppercase !important;
+        text-decoration: none !important;
+        }
+        .products-row
+        {
+        position: relative;
+        left: -105px !important;
+        padding-left: 105px !important;
+        padding-right: 105px !important;
+        }
         .float-right
         {
         position: relative;
@@ -366,6 +502,33 @@
         {
         position: relative;
         top: 10vh;
+        }
+        .why-us-img-padding
+        {
+          left: 25% !important;
+          width: 65%;
+        }
+        .react-multiple-carousel__arrow--right
+        {
+            margin-right: 85px !important;
+        }
+        .row-position
+        {
+        position: relative;
+        left: -90px !important;
+        padding-left: 85px !important;
+        padding-right: 85px !important;
+        }
+        .second-section h2
+        {
+        position: relative;
+        left: 0;
+        padding-bottom: 5px;
+        font-size: 15px !important;
+        }
+        .card p
+        {
+            font-size: 10px !important;
         }
 }
 @media screen and (max-width:991px) {

@@ -15,7 +15,7 @@ function Header() {
       <nav className="panel top">
   <div className="sections desktop">
     <div className="left">
-      <a href="/" title="Gebriel-Motors">
+      <a href="#home" title="Gebriel-Motors">
         {/* <svg style={{ width: 82, height: 24 }}>
           <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#logo" />
         </svg> */}
@@ -27,23 +27,24 @@ function Header() {
       </ul>
 
     </div>
+    {console.log(location.hash)}
     <div className="right">
-      {location.pathname === "/" ? 
+      {location.hash === "#home" ? 
     <ul className="menu uppercase">
         <li>
-          <a className="Selected" href="/">Home</a>
+          <a className="Selected" href="#home">Home</a>
         </li>
         <li>
-          <a href="/our-company">Our Company</a>
+          <a href="#our-company">Our Company</a>
         </li>
         <li>
-          <a href="/products">Our Products</a>
+          <a href="#products">Our Products</a>
         </li>
         <li>
-          <a href="/why-us">Why Us</a>
+          <a href="#why-us">Why Us</a>
         </li>
         <li>
-          <a href="/contact-us">Contact Us</a>
+          <a href="#contact-us">Contact Us</a>
         </li>
         <li>
             <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
@@ -51,22 +52,71 @@ function Header() {
             </a>
         </li>
       </ul>
-        : location.pathname === "/our-company" ? 
+              : location.hash === "#home2" ? 
+        
+              <ul className="menu uppercase">
+              <li>
+                <a className="Selected" href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#our-company">Our Company</a>
+              </li>
+              <li>
+                <a href="#products">Our Products</a>
+              </li>
+              <li>
+                <a href="#why-us">Why Us</a>
+              </li>
+              <li>
+                <a href="#contact-us">Contact Us</a>
+              </li>
+              <li>
+                  <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
+                      <img src="assets/gebriel-motors/sidebar.png" alt="..." role="..."/>
+                  </a>
+              </li>
+            </ul>
+                    : location.hash === "#home3" ? 
+        
+                    <ul className="menu uppercase">
+                    <li>
+                      <a className="Selected" href="#home">Home</a>
+                    </li>
+                    <li>
+                      <a href="#our-company">Our Company</a>
+                    </li>
+                    <li>
+                      <a href="#products">Our Products</a>
+                    </li>
+                    <li>
+                      <a href="#why-us">Why Us</a>
+                    </li>
+                    <li>
+                      <a href="#contact-us">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
+                            <img src="assets/gebriel-motors/sidebar.png" alt="..." role="..."/>
+                        </a>
+                    </li>
+                  </ul>
+        : location.hash === "#our-company" ? 
+        
         <ul className="menu uppercase">
         <li>
-          <a href="/">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a className="Selected" href="/our-company">Our Company</a>
+          <a className="Selected" href="#our-company">Our Company</a>
         </li>
         <li>
-          <a href="/products">Our Products</a>
+          <a href="#products">Our Products</a>
         </li>
         <li>
-          <a href="/why-us">Why Us</a>
+          <a href="#why-us">Why Us</a>
         </li>
         <li>
-          <a href="/contact-us">Contact Us</a>
+          <a href="#contact-us">Contact Us</a>
         </li>
         <li>
             <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
@@ -74,22 +124,22 @@ function Header() {
             </a>
         </li>
       </ul>
-      : location.pathname === "/products" ? 
+      : location.hash === "#products" ? 
       <ul className="menu uppercase">
       <li>
-        <a href="/">Home</a>
+        <a href="#home">Home</a>
       </li>
       <li>
-        <a href="/our-company">Our Company</a>
+        <a href="#our-company">Our Company</a>
       </li>
       <li>
-        <a className="Selected" href="/products">Our Products</a>
+        <a className="Selected" href="#products">Our Products</a>
       </li>
       <li>
-        <a href="/why-us">Why Us</a>
+        <a href="#why-us">Why Us</a>
       </li>
       <li>
-          <a href="/contact-us">Contact Us</a>
+          <a href="#contact-us">Contact Us</a>
         </li>
       <li>
           <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
@@ -97,22 +147,22 @@ function Header() {
           </a>
       </li>
     </ul>
-    : location.pathname === "/why-us" ? 
+    : location.hash === "#why-us" ? 
     <ul className="menu uppercase">
       <li>
-        <a href="/">Home</a>
+        <a href="#home">Home</a>
       </li>
       <li>
-        <a href="/our-company">Our Company</a>
+        <a href="#our-company">Our Company</a>
       </li>
       <li>
-        <a href="/products">Our Products</a>
+        <a href="#products">Our Products</a>
       </li>
       <li>
-        <a className="Selected" href="/why-us">Why Us</a>
+        <a className="Selected" href="#why-us">Why Us</a>
       </li>
       <li>
-          <a href="/contact-us">Contact Us</a>
+          <a href="#contact-us">Contact Us</a>
         </li>
       <li>
           <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
@@ -120,22 +170,22 @@ function Header() {
           </a>
       </li>
     </ul>
-    : location.pathname === "/contact-us" ? 
+    : location.hash === "#contact-us" ? 
     <ul className="menu uppercase">
       <li>
-        <a href="/">Home</a>
+        <a href="#home">Home</a>
       </li>
       <li>
-        <a href="/our-company">Our Company</a>
+        <a href="#our-company">Our Company</a>
       </li>
       <li>
-        <a href="/products">Our Products</a>
+        <a href="#products">Our Products</a>
       </li>
       <li>
-        <a href="/why-us">Why Us</a>
+        <a href="#why-us">Why Us</a>
       </li>
       <li>
-          <a className="Selected" href="/contact-us">Contact Us</a>
+          <a className="Selected" href="#contact-us">Contact Us</a>
         </li>
       <li>
           <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
@@ -150,7 +200,7 @@ function Header() {
   </div>
   <div className="sections compact hidden">
     <div className="left">
-      <a href="/" title="Gebriel-Motors">
+      <a href="#home" title="Gebriel-Motors">
         <img style={{ width: 112, height: 33 }} src="assets/gebriel-motors/logo.png" role="..." alt="..."/>
       </a>
     </div>

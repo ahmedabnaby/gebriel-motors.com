@@ -116,7 +116,7 @@ img.rounded {
   -webkit-hyphens: none;
       -ms-hyphens: none;
           hyphens: none;
-  background: #111;
+  background: rgb(192, 22, 22);
   -webkit-font-smoothing: antialiased;
 }
 

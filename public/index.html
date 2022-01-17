@@ -106,6 +106,8 @@
     </svg>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <img id="logo-loader" src="assets/gebriel-motors/preloader.gif" class="logo-loader"/>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -117,6 +119,40 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/LoadGo/2.1/loadgo-nojquery.min.js"></script>
+<script>
+    var image = document.getElementById("logo-loader");
+    
+    // When the image loads, create the progress
+    image.onload = function(){
+        // Init the loader
+        Loadgo.init(image);
+        // Load effect
+        triggerLoadEffect();
+    };
+
+    function triggerLoadEffect(){
+        var progress = 0;
+
+        // Every half second add 10 to the progress of the bar
+        var myInterval = setInterval(function(){ 
+            // Stop progress
+            if(progress == 100){
+                return stopInterval();
+            }
+            // Update progress
+            progress += 10;
+
+            // Change progress of the bar
+            Loadgo.setprogress(image, progress);
+        }, 500);
+
+        function stopInterval(){
+            clearInterval(myInterval);
+            console.log("The progress bar has a value of 100 %");
+        }
+    }
+</script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/slides.min.js?41331" type="text/javascript"></script>
+  <script src="js/slides.min.js" type="text/javascript"></script>
 </html>
