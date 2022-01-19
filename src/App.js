@@ -1,8 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./Components/MainPages/Home"
+import Company from "./Components/MainPages/Company"
+import WhyUs from "./Components/MainPages/WhyUs"
 import Header from "./Includes/Header"
-// import Footer from "./Includes/Footer"
 
 function App() {
   return (
@@ -13,10 +14,10 @@ function App() {
       <Header/>
           <Routes>
             <Route path='/' element={<Home/>} />
-            {/* <Route path='/veichles' element={<Veichles/>} />
-            <Route path='/products' element={<Products/>} />
-            <Route path='/services' element={<Services/>} />
-            <Route path='/our-benfits' element={<Benfits/>} /> */}
+            <Route path='/our-company' element={<Company/>} />
+            <Route path='/why-us' element={<WhyUs/>} />
+            {/* <Route path='/services' element={<Services/>} /> */}
+            {/* <Route path='/our-benfits' element={<Benfits/>} /> */}
           </Routes>
       {/* <Footer/> */}
       

@@ -173,7 +173,6 @@
         {
         font-size: 12px !important;
         padding-top: 5px;
-        left: 3px !important;
         }
         .subtitle-product
         {
@@ -233,6 +232,26 @@
         {
             margin-right: 85px !important;
         }
+        .margin-left
+        {
+            position: relative;
+            left: -50px !important;
+        }
+        .row-position
+        {
+        position: relative;
+        left: -90px !important;
+        padding-left: 85px !important;
+        padding-right: 85px !important;
+        }
+        .react-multiple-carousel__arrow--left {
+            left: -3% !important;
+            top: 230px !important;
+          }
+          .react-multiple-carousel__arrow--right {
+            right: 2% !important;
+            top: 230px !important;
+          }
 }
 @media screen and (max-width:1365px) {
     .panel .sections .menu li a
@@ -310,6 +329,7 @@
         {
         font-size: 12px !important;
         padding-top: 5px;
+        width: 50% !important;
         }
         .subtitle-product
         {
@@ -368,6 +388,18 @@
         .react-multiple-carousel__arrow--right
         {
             margin-right: 85px !important;
+        }
+        .margin-left
+        {
+            position: relative;
+            left: -50px !important;
+        }
+        .row-position
+        {
+        position: relative;
+        left: -90px !important;
+        padding-left: 85px !important;
+        padding-right: 85px !important;
         }
 }
 @media screen and (max-width:1200px) {
@@ -452,7 +484,8 @@
         .know-more
         {
         font-size: 12px !important;
-        padding-top: 5px;
+        padding-top: 0px;
+        width: 50% !important;
         }
         .subtitle-product
         {
@@ -529,6 +562,16 @@
         .card p
         {
             font-size: 10px !important;
+        }
+        .margin-left
+        {
+            position: relative;
+            left: -80px !important;
+        }
+        .mt
+        {
+            position: relative;
+            top: -50px;
         }
 }
 @media screen and (max-width:991px) {
@@ -637,4 +680,55 @@
     padding-left: 15px;
     padding-right: 15px;
     }
+    .mainSection2
+    {
+        top: 1vh !important;
+        left: 0 !important;
+        padding: 50px;
+    }
+    .mainSection2 h1
+    {
+        font-size: 75px !important;
+        line-height: 55px !important;
+        padding-bottom: 20px;
+    }
+    .float-right
+    {
+        left: 0 !important;
+    }
+    .paragraph
+    {
+        width: 95%;
+    }
+    .products-row
+    {
+        left: -25px !important;
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+    }
+    .special
+    {
+        position: relative;
+        left: -100px !important;
+    }
+    .paragraph-product,
+    .paragraph-subtitle
+    {
+        width: 75%;
+        text-align: left;
+    }
+    .mar-l
+    {
+        left: 0 !important;
+    }
+      .row-position
+      {
+          left: 0 !important;
+          padding-right: 15px !important;
+          padding-left: 15px !important;
+      }
+      .mt
+      {
+          top: 0 !important;
+      }
 }

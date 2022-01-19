@@ -75,10 +75,10 @@ function Home() {
               <div className="fix-12-12 ">
                   <div className="fix-12-12 mainSection">
                     <h1 className='wide fromLeft'>
-                      <span className='ae-1'>Value is </span> 
-                      <span className='ae-5'>what <br/> </span>
-                      <span className='spanOrange ae-8'>you </span>
-                      <span className='spanOrange ae-10'>get</span>
+                      <span className='spanOrange ae-1'>Value </span> 
+                      <span className='ae-5'>is what <br/> </span>
+                      <span className='ae-8'>you </span>
+                      <span className='ae-10'>get</span>
                       </h1>
                       <h2 className='wide fromLeft ae-10'>Supplying quality is our commitment,<br/>products grade is our promise.</h2>
                   </div>
@@ -128,19 +128,19 @@ function Home() {
                         <div className='col-md-4'>
                           <h3 className='subtitle ae-1'>About Us</h3>
                           <p className='paragraph ae-3'>A leading company in dealing and importing vehicle spare parts, established in 1985, to begin reaching numerous accomplishments through contracting with the top-notch suppliers in Japan, Taiwan, and Korea.</p>
-                          <a href='/' className='know-more ae-5'>Know More</a>
+                          <p className='know-more ae-5'><a href="/our-company" target={"_blank"}>Know More</a></p>
                         </div>
                         <div className='col-md-4 float-right'>
                           <h3 className='subtitle ae-1'>Our mission</h3>
                           <p className='paragraph ae-3'>To provide the Egyptian market with high-quality products to eliminate fraudulent and imitated products.
 The company strives for the most qualified brands in the auto spare parts industry.</p>
-                          <a href='/' className='know-more ae-5'>Know More</a>
+                          <p className='know-more ae-5'><a href="/our-company" target={"_blank"}>Know More</a></p>
                         </div>
-                        <div className='col-md-7 margin-top'>
+                        <div className='col-md-7'>
                           <h3 className='subtitle ae-7'>Our Vision</h3>
                           <p className='paragraph ae-9'>All-dimensions growth is our vision aim. <br/>
 Ruling the Egyptian market is one vision, among leading the market internationally, through creating a trustworthy relationship between consumers and suppliers, administering the utmost quality of merchandise.</p>
-                          <a href='/' className='know-more ae-10'>Know More</a>
+                          <p className='know-more ae-5'><a href="/our-company" target={"_blank"}>Know More</a></p>
                         </div>
                       </div>
                   </div>
@@ -336,10 +336,10 @@ Ruling the Egyptian market is one vision, among leading the market international
 
                         </div>
                         <div className='col-md-12'>
-                          <h3 className='subtitle-product ae-1'>KGK</h3>
-                          <p className='paragraph-product ae-3'>One of our prime suppliers. <br/> Suppliers of high-performance products</p>
-                          <p className='details-1 ae-5'>- <br/>Exclusive Distributor</p>
-                          <div className='row products-row p-5'>
+                          <h3 className='subtitle-product margin-left ae-1'>KGK</h3>
+                          <p className='paragraph-product margin-left ae-3'>One of our prime suppliers. <br/> Suppliers of high-performance products</p>
+                          <p className='details-1 margin-left ae-5'>- <br/>Exclusive Distributor</p>
+                          <div className='row products-row p-5 special'>
                             <div className='col-3 ae-5 a-products-hover'>
                               <img src='assets/gebriel-motors/product28.png' className='pb-4'/>
                             </div>
@@ -370,15 +370,26 @@ Ruling the Egyptian market is one vision, among leading the market international
                       <span className='ae-1'>Why <span className='spanOrange ae-5'>Us</span></span> 
                       </h1>
                       <div className='second-section'>
-                        <div className='col-md-8'>
+                        <div className='row'>
+                        <div className='col-md-4'>
                           <h3 className='subtitle ae-1'>Our aspects</h3>
                           <p className='paragraph ae-3'>Gebriel Motors is a high-quality ruling company in the industry, founded among strict standpoint of promoting and providing only high-grade products through hiring top experts in the field.</p>
-                          <a href='/' className='know-more ae-5'>Know More</a>
+                          <p className='know-more ae-5'><a href="/why-us" target={"_blank"}>Know More</a></p>
                         </div>
-                        <div className='col-md-12 margin-top'>
+                        <div className='col-md-8 mar-l'>
                           <h3 className='subtitle ae-7'>Our values</h3>
-                          <p className='paragraph ae-9'>Honesty, equity, and integrity are the foundation of all our values.</p>
-                          <a href='/' className='know-more ae-10'>Know More</a>
+                          <p className='know-more ae-8'>—Honesty, equity, and integrity are the foundation of all our values</p>
+                          <p className='paragraph ae-9'> {" >> "} &nbsp;&nbsp; Customer Eelationship</p>
+                          <p className='paragraph ae-9'> {" >> "} &nbsp;&nbsp; Premium Quality</p>
+                          <p className='paragraph ae-9'> {" >> "} &nbsp;&nbsp; Integrity</p>
+                          <p className='know-more ae-10'><a href="/why-us" target={"_blank"}>Know More</a></p>
+                        </div>
+                        </div>
+                        <div className='col-md-4 mt'>
+                          <h3 className='subtitle ae-1'>Fully integrated system</h3>
+                          <p className='paragraph ae-5'> {" >> "} &nbsp;&nbsp; +34 years of experience</p>
+                          <p className='paragraph ae-9'> {" >> "} &nbsp;&nbsp; +45 world-class recognized partners</p>
+                          <p className='know-more ae-10'><a href="/why-us" target={"_blank"}>Know More</a></p>
                         </div>
                       </div>
                   </div>
@@ -400,7 +411,10 @@ Ruling the Egyptian market is one vision, among leading the market international
                     <h1 className='wide fromRight'>
                       <span className='ae-1'>Contact <span className='spanOrange ae-5'>Us</span></span> 
                       </h1>
-                      <div className='second-section'>
+                      <h3 className='wide fromRight'>
+                      <span className='ae-1'>Don't <span className='spanOrange ae-5'>hesitate</span> to <span className='spanOrange ae-7'>contact us</span></span> 
+                      </h3>
+                      {/* <div className='second-section'>
                       <Carousel responsive={responsive_contact} className='second-section'>
 
                       <div className='row row-position'>
@@ -444,12 +458,7 @@ Ruling the Egyptian market is one vision, among leading the market international
                         </div>
                         </Carousel>
 
-                        {/* <div className='col-md-12 margin-top'>
-                          <h3 className='subtitle ae-7'>Our values</h3>
-                          <p className='paragraph ae-9'>Honesty, equity, and integrity are the foundation of all our values.</p>
-                          <a href='/' className='know-more ae-10'>Know More</a>
-                        </div> */}
-                      </div>
+                      </div> */}
                   </div>
               </div>
                     {/* <img src="assets/gebriel-motors/why-us.png" className='why-us-img-padding'/> */}

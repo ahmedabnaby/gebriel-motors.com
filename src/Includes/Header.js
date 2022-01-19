@@ -1,5 +1,4 @@
 import React from 'react';
-import { Navbar, Container,  Nav, Offcanvas } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom'
 
 function Header() {
@@ -100,6 +99,30 @@ function Header() {
                         </a>
                     </li>
                   </ul>
+                  : location.hash === "#" ? 
+        
+                  <ul className="menu uppercase">
+                  <li>
+                    <a className="Selected" href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#our-company">Our Company</a>
+                  </li>
+                  <li>
+                    <a href="#products">Our Products</a>
+                  </li>
+                  <li>
+                    <a href="#why-us">Why Us</a>
+                  </li>
+                  <li>
+                    <a href="#contact-us">Contact Us</a>
+                  </li>
+                  <li>
+                      <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
+                          <img src="assets/gebriel-motors/sidebar.png" alt="..." role="..."/>
+                      </a>
+                  </li>
+                </ul>
         : location.hash === "#our-company" ? 
         
         <ul className="menu uppercase">
@@ -193,6 +216,54 @@ function Header() {
           </a>
       </li>
     </ul>
+    : location.pathname === "/our-company" ? 
+        
+    <ul className="menu uppercase">
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="#our-company" className="Selected">Our Company</a>
+    </li>
+    <li>
+      <a href="/#home">Our Products</a>
+    </li>
+    <li>
+      <a href="/#home">Why Us</a>
+    </li>
+    <li>
+      <a href="/#home">Contact Us</a>
+    </li>
+    <li>
+        <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
+            <img src="assets/gebriel-motors/sidebar.png" alt="..." role="..."/>
+        </a>
+    </li>
+  </ul>
+  : location.pathname === "/why-us" ? 
+        
+  <ul className="menu uppercase">
+  <li>
+    <a href="/#home">Home</a>
+  </li>
+  <li>
+    <a href="/#home">Our Company</a>
+  </li>
+  <li>
+    <a href="/#home">Our Products</a>
+  </li>
+  <li>
+    <a href="#" className="Selected">Why Us</a>
+  </li>
+  <li>
+    <a href="/#home">Contact Us</a>
+  </li>
+  <li>
+      <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
+          <img src="assets/gebriel-motors/sidebar.png" alt="..." role="..."/>
+      </a>
+  </li>
+</ul>
     :
     "404"
     }

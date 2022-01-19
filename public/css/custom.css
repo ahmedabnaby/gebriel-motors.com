@@ -40,7 +40,6 @@
   top: 0vh;
   min-width: 100%;
   min-height: 100%;
-  background-attachment: fixed;
 }
 .Selected
 {
@@ -98,7 +97,7 @@
 .arrowWIDTH
 {
   position: relative;
-  top: -29px !important;
+  top: -33px !important;
   left: 120px;
   display:block;
   -webkit-transform: rotate(-90deg) !important; 
@@ -129,6 +128,16 @@
   letter-spacing: 0.3px;
   position: relative;
   left: 10%;
+}
+.mainSection2 h3
+{
+  font-size: 30px;
+  font-family: 'Resolve-RegularNrw';
+  text-align: left;
+  letter-spacing: 0.3px;
+  position: relative;
+  left: 0%;
+  padding-top: 25px;
 }
 .second-section
 {
@@ -180,13 +189,15 @@ a:hover
   text-transform: uppercase;
   color: #54565a;
   font-family: "Suisse Int-regular";
-  font-weight: 300;
+  font-weight: 500;
   text-align: left;
-  text-decoration: underline;
-  position: absolute;
-  font-size: 18px;
-  left: 5px;
+  font-size: 17px;
   padding-top: 5px;
+  padding-bottom: 25px;
+}
+.know-more a
+{
+  color: #54565a !important;
 }
 .see-more
 {
@@ -236,6 +247,9 @@ li[data-index='9'] {
 {
   font-family: "Resolve-BoldCnIta";
   font-size: 20px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  font-weight: 300 !important;
 }
 .product-a
 {
@@ -335,8 +349,6 @@ li[data-index='9'] {
 .rc-footer-container
 {
   max-width: 100% !important;
-  /* padding-right: 225px; */
-  /* padding-left: 225px; */
   padding: 80px 225px 20px !important;
 }
 .rc-footer-bottom-container
@@ -361,16 +373,70 @@ li[data-index='9'] {
 }
 .react-multiple-carousel__arrow--left {
   left: -1% !important;
-  top: 125px !important;
+  top: 80px !important;
 }
 .react-multiple-carousel__arrow--right {
   right: -1% !important;
-  top: 125px !important;
+  top: 80px !important;
 }
 .a-products-hover:hover
 {
   color: #ff4713;
   transition: 0.3s;
+}
+.mar-l
+{
+  position: relative;
+  left: 150px;
+}
+.mt-4
+{
+  position: relative;
+  top: 20px !important;
+}
+.mt-5
+{
+  position: relative;
+  top: 40px !important;
+}
+.mt-5 h4
+{
+  text-align: left !important;
+  font-family: "Suisse Int-regular" !important;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.paragraph-gray
+{
+  color: #54565a !important;
+  position: relative;
+  top: -10px;
+  font-weight: 600 !important;
+}
+.company-position
+{
+  position: relative;
+  left: -100px;
+  top: 25px;
+}
+.mt-3 p
+{
+  width: 75%;
+}
+.mt-4 p
+{
+  width: 75%;
+}
+.mt-5 p
+{
+  width: 75%;
+}
+.our-company-img
+{
+  position: absolute;
+  top: 15vh;
+  right: -5%;
 }
 @media screen and (max-width:1679px) {
   .footer
@@ -407,6 +473,26 @@ li[data-index='9'] {
   {
   font-family: 'Resolve-RegularNrw' !important;
   font-size: 13px !important;
+  }
+  li[data-index='9'] {
+    width: 1150px !important;
+    position: relative;
+    left: -25px  !important;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: -3% !important;
+    top: 230px !important;
+  }
+  .react-multiple-carousel__arrow--right {
+    right: 2% !important;
+    top: 230px !important;
+  }
+}
+@media (min-width:1400px) and (max-width:1679px) {
+  li[data-index='9'] {
+    width: 1325px !important;
+    position: relative;
+    left: -25px  !important;
   }
 }
 @media screen and (max-width:1365px) {
@@ -445,6 +531,19 @@ li[data-index='9'] {
   {
   font-family: 'Resolve-RegularNrw' !important;
   font-size: 10px !important;
+  }
+  li[data-index='9'] {
+    width: 1150px !important;
+    position: relative;
+    left: -25px  !important;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: -3% !important;
+    top: 230px !important;
+  }
+  .react-multiple-carousel__arrow--right {
+    right: 2% !important;
+    top: 230px !important;
   }
 }
 @media screen and (max-width:1200px) {
@@ -485,4 +584,38 @@ li[data-index='9'] {
         font-family: 'Resolve-RegularNrw' !important;
         font-size: 10px !important;
         }
+        li[data-index='9'] {
+          width: 1000px !important;
+          position: relative;
+          left: -25px  !important;
+        }
+        .react-multiple-carousel__arrow--left {
+          left: -1% !important;
+          top: 200px !important;
+        }
+        .react-multiple-carousel__arrow--right {
+          right: 2% !important;
+          top: 200px !important;
+        }
+}
+@media screen and (max-width:767px) {
+  .react-multiple-carousel__arrow--right
+  {
+    right: -20% !important;
+  }
+  li[data-index='9'] {
+    display: none !important;
+   }
+   li[data-index='11']
+   {
+       left: 50px !important;
+   }
+  .rc-footer-column h2
+  {
+    margin: 0 auto 0px !important;
+  }
+  .footer
+  {
+    bottom: 32vh !important;
+  }
 }
