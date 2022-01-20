@@ -65,7 +65,7 @@
         {
         position: relative;
         left: 50% !important;
-        top: 135px !important;
+        top: 0vh !important;
         }
       .mainSection h1
         {
@@ -81,11 +81,11 @@
         }
         #myVideo {
         position: fixed;
-        right: -5% !important;
-        top: -25px !important;
+        right: 0% !important;
+        top: -50px !important;
         min-width: 55% !important;
         min-height: 55% !important;
-        width:115% !important;
+        width:100% !important;
         }
         .contact-us
         {
@@ -95,7 +95,18 @@
         font-size: 20px;
         letter-spacing: 0.5px;
         }
-
+        .our-company-img
+        {
+        right: 0% !important;
+        }
+        .mt-5 h4
+        {
+        width: 50%;
+        }
+        .new-width
+        {
+            width: 65% !important;
+        }
 }
 @media screen and (max-width:1679px) {
     .panel .sections .menu li a
@@ -115,7 +126,7 @@
         {
         position: relative;
         left: 45% !important;
-        top: 135px !important;
+        top: 5vh !important;
         }
       .mainSection h1
         {
@@ -135,7 +146,7 @@
             top: 0px !important;
             min-width: 55% !important;
             min-height: 55% !important;
-            width:110% !important;
+            width:100% !important;
         }
         .contact-us
         {
@@ -159,7 +170,7 @@
         .second-section
         {
             position: initial !important;
-            margin-top: 5vh !important;
+            margin-top: 0vh !important;
         }
         .subtitle
         {
@@ -194,7 +205,7 @@
         .details
         {
         font-size: 24px !important;
-        margin-top: 25px !important;
+        margin-top: 5px !important;
         }
         .product-name
         {
@@ -252,6 +263,23 @@
             right: 2% !important;
             top: 230px !important;
           }
+          .mt
+        {
+            position: relative;
+            top: -80px;
+        }
+        .our-company-img
+        {
+        right: 0% !important;
+        }
+        .mt-5 h4
+        {
+        width: 50%;
+        }
+        .new-width
+        {
+            width: 55% !important;
+        }
 }
 @media screen and (max-width:1365px) {
     .panel .sections .menu li a
@@ -271,7 +299,7 @@
         {
         position: relative;
         left: 40% !important;
-        top: 105px !important;
+        top: 10vh !important;
         }
       .mainSection h1
         {
@@ -288,10 +316,10 @@
         #myVideo {
             position: fixed;
             right: 7% !important;
-            top: 0px !important;
+            top: 0 !important;
             min-width: 55% !important;
             min-height: 55% !important;
-            width:105% !important;
+            width:100% !important;
         }
         .contact-us
         {
@@ -312,10 +340,15 @@
         font-size: 130px !important;
         line-height: 120px;
         }
+        .res-mar
+        {
+            position: relative;
+            top: -25px;
+        }
         .second-section
         {
             position: initial !important;
-            margin-top: 5vh !important;
+            margin-top: 0vh !important;
         }
         .subtitle
         {
@@ -324,6 +357,10 @@
         .paragraph
         {
         font-size: 12px !important;
+        }
+        .new-width
+        {
+            width: 55% !important;
         }
         .know-more
         {
@@ -348,10 +385,11 @@
         font-size: 13px !important;
         padding-top: 25px !important;
         }
+        .details-1,
         .details
         {
         font-size: 22px !important;
-        margin-top: 25px !important;
+        margin-top: -15px !important;
         }
         .product-name
         {
@@ -362,6 +400,11 @@
         color:white !important;
         text-transform: uppercase !important;
         text-decoration: none !important;
+        }
+        .mt
+        {
+            position: relative;
+            top: -100px;
         }
         .products-row
         {
@@ -401,6 +444,14 @@
         padding-left: 85px !important;
         padding-right: 85px !important;
         }
+        .our-company-img
+        {
+        right: 5% !important;
+        }
+        .mt-5 h4
+        {
+        width: 50%;
+        }
 }
 @media screen and (max-width:1200px) {
     .panel .sections .menu li a
@@ -425,7 +476,7 @@
         {
         position: relative;
         left: 30% !important;
-        top: 20vh !important;
+        top: 5vh !important;
         }
       .mainSection h1
         {
@@ -471,7 +522,7 @@
         .second-section
         {
             position: initial !important;
-            margin-top: -5px !important;
+            margin-top: -25px !important;
         }
         .subtitle
         {
@@ -507,7 +558,7 @@
         .details
         {
         font-size: 22px !important;
-        margin-top: 25px !important;
+        margin-top: 5px !important;
         }
         .product-name
         {
@@ -571,14 +622,24 @@
         .mt
         {
             position: relative;
-            top: -50px;
+            top: -100px;
+        }
+        .our-company-img
+        {
+            right: 0 !important;
+        }
+        .company-position
+        {
+            position: relative;
+            left: -85px !important;
+            top: 25px;
         }
 }
 @media screen and (max-width:991px) {
     .panel .sections .menu li a
     {
         font-size: 13px;
-        margin-left: 40px;
+        margin-left: 25px;
     }
     .desktopButton.desktopActionButton
     {
@@ -623,15 +684,58 @@
         }
         #myVideo {
             position: fixed;
-            right: 5% !important;
-            top: 0px !important;
+            right: -10% !important;
+            top: 10vh !important;
             min-width: 55% !important;
             min-height: 55% !important;
-            width:105% !important;
+            width: 120% !important;
+        }
+        
+        .company-position
+        {
+            left: -8% !important;
+        }
+        .our-company-img
+        {
+            padding: 150px !important;
+            top: 0 !important;
+            right: -15% !important;
+        }
+        .paragraph-gray
+        {
+            width: 40% !important;
+        }
+        .products-row
+        {
+            padding-left: 65px !important;
+            padding-right: 65px !important;
+            left: -65px !important;
+        }
+        .paragraph-product
+        {
+            width: 65% !important;
+            text-align: left !important;
+        }
+        .paragraph-subtitle
+        {
+            width: 45% !important;
+            text-align: left !important;
+        }
+        .mar-l
+        {
+            left: 95px !important;
+        }
+        .mainSection2
+        {
+            left: 50px !important;
+        }
+        .mt
+        {
+            top: -50px !important;
         }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .panel .sections .menu li a
     {
         font-size: 13px;

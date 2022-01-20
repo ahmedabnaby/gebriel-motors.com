@@ -14,7 +14,7 @@ function Header() {
       <nav className="panel top">
   <div className="sections desktop">
     <div className="left">
-      <a href="#home" title="Gebriel-Motors">
+      <a href="/#home" title="Gebriel-Motors">
         {/* <svg style={{ width: 82, height: 24 }}>
           <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#logo" />
         </svg> */}

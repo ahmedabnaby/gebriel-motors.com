@@ -8,7 +8,7 @@ return(
   className='footer'
     columns={[
       {
-        title: <img src="assets/gebriel-motors/logo.png"/>,
+        title: <img src="assets/gebriel-motors/logo.png" alt="..." className='footer-logo'/>,
         items:[
           {
             description:'GET RIGHT TO THE GOOD PARTS. ',

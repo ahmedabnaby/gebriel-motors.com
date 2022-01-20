@@ -136,7 +136,7 @@ function Home() {
 The company strives for the most qualified brands in the auto spare parts industry.</p>
                           <p className='know-more ae-5'><a href="/our-company" target={"_blank"}>Know More</a></p>
                         </div>
-                        <div className='col-md-7'>
+                        <div className='col-md-7 res-mar'>
                           <h3 className='subtitle ae-7'>Our Vision</h3>
                           <p className='paragraph ae-9'>All-dimensions growth is our vision aim. <br/>
 Ruling the Egyptian market is one vision, among leading the market internationally, through creating a trustworthy relationship between consumers and suppliers, administering the utmost quality of merchandise.</p>
