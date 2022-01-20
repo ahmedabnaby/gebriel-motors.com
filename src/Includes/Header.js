@@ -100,29 +100,28 @@ function Header() {
                     </li>
                   </ul>
                   : location.hash === "#" ? 
-        
                   <ul className="menu uppercase">
-                  <li>
-                    <a className="Selected" href="#home">Home</a>
-                  </li>
-                  <li>
-                    <a href="#our-company">Our Company</a>
-                  </li>
-                  <li>
-                    <a href="#products">Our Products</a>
-                  </li>
-                  <li>
-                    <a href="#why-us">Why Us</a>
-                  </li>
-                  <li>
-                    <a href="#contact-us">Contact Us</a>
-                  </li>
-                  <li>
-                      <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
-                          <img src="assets/gebriel-motors/sidebar.png" alt="..." role="..."/>
-                      </a>
-                  </li>
-                </ul>
+                    <li>
+                      <a href="#home">Home</a>
+                    </li>
+                    <li>
+                      <a href="#our-company">Our Company</a>
+                    </li>
+                    <li>
+                      <a href="#products">Our Products</a>
+                    </li>
+                    <li>
+                      <a href="#why-us">Why Us</a>
+                    </li>
+                    <li>
+                        <a href="#contact-us">Contact Us</a>
+                      </li>
+                    <li>
+                        <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
+                            <img src="assets/gebriel-motors/sidebar.png" alt="..." role="..."/>
+                        </a>
+                    </li>
+                  </ul>
         : location.hash === "#our-company" ? 
         
         <ul className="menu uppercase">
@@ -265,7 +264,28 @@ function Header() {
   </li>
 </ul>
     :
-    "404"
+    <ul className="menu uppercase">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#our-company">Our Company</a>
+      </li>
+      <li>
+        <a href="#products">Our Products</a>
+      </li>
+      <li>
+        <a href="#why-us">Why Us</a>
+      </li>
+      <li>
+          <a href="#contact-us">Contact Us</a>
+        </li>
+      <li>
+          <a href="#" className="desktopButton desktopActionButton sidebarTrigger" data-sidebar-id={1}>
+              <img src="assets/gebriel-motors/sidebar.png" alt="..." role="..."/>
+          </a>
+      </li>
+    </ul>
     }
     </div>
   </div>
@@ -292,37 +312,27 @@ function Header() {
       </svg>
     </div>
     <div className="content">
-      <a href="#" className="logo">
+      <a href="/" className="logo">
         <img style={{ width: 82, height: 24 }} src="assets/gebriel-motors/logo.png" role="..." alt="..."/>
       </a>
       <ul className="mainMenu margin-top-3">
         <li>
-          <a href="#">All Goods</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="#">UI Kits</a>
+          <a href="#our-company">About Us</a>
         </li>
         <li>
-          <a href="#">Icons</a>
+          <a href="#products">Products</a>
         </li>
         <li>
-          <a href="#">Mockups</a>
+          <a href="#why-us">Why Us</a>
         </li>
         <li>
-          <a href="#">Toolkit</a>
+          <a href="#contact-us">Contact Us</a>
         </li>
       </ul>
-      <ul className="subMenu small opacity-8">
-        <li>
-          <a href="#">Terms &amp; Conditions</a>
-        </li>
-        <li>
-          <a href="#">Privacy Policy</a>
-        </li>
-        <li>
-          <a href="#">Contact Us</a>
-        </li>
-      </ul>
+      
       <ul className="social opacity-8">
         <li>
           <a href="#">
