@@ -43,7 +43,7 @@ function Home() {
     return (
       <div>
         
-        <section className="slide fade-6 kenBurns" id="home">
+        <section className="slide kenBurns" id="home">
           <div className="content">
             <div className="container">
               <div className="wrap">
@@ -68,7 +68,7 @@ function Home() {
         </section>
 
         
-        <section className="slide fade-6 kenBurns fromLeft" id="home2">
+        <section className="slide kenBurns fromLeft" id="home2">
         <div className="content">
             <div className="container">
               <div className="wrap">
@@ -92,7 +92,7 @@ function Home() {
         </video>
         </section>
 
-        <section className="slide fade-6 kenBurns fromRight" id="home3">
+        <section className="slide kenBurns fromRight" id="home3">
         <div className="content">
             <div className="container">
               <div className="wrap">
