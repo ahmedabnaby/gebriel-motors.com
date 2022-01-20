@@ -45,11 +45,11 @@ return(
         title: 'Contact Us',
         items:[
           {
-            title: '(+20) 1027 4033 11',
+            title: '(+971) 545 575 800',
             url: '#home',
           },
           {
-            title: '8 Sengar St., Al Khalafawi, Shubra, Cairo Government, Egypt.',
+            title: 'Office A615, Tower A, JAFAZA One Building, Dubai',
             url: '#home',
           },
           {

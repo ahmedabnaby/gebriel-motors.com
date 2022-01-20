@@ -865,19 +865,3 @@
           padding-bottom: 50px;
       }
 }
-
-@media screen and (orientation: landscape) {
-    html {
-      /* Rotate the content container */
-      transform: rotate(-90deg);
-      transform-origin: left top;
-      /* Set content width to viewport height */
-      width: 100vh;
-      /* Set content height to viewport width */
-      height: 100vw;
-      overflow-x: hidden;
-      position: absolute;
-      top: 100%;
-      left: 0;
-    }
-  }
