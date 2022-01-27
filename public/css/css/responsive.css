@@ -1,0 +1,879 @@
+@media screen and (min-width:2560px) {
+    .panel .sections .menu li a
+    {
+        font-size: 17px;
+    }
+    .desktopButton.desktopActionButton
+    {
+        top: 16px !important;
+    }
+    .panel .sections {
+        padding-left: 125px;
+        padding-right: 125px;
+        padding-top: 15px !important;
+      }
+      .mainSection
+        {
+        position: relative;
+        left: 70% !important;
+        top: 135px !important;
+        }
+      .mainSection h1
+        {
+        font-size: 180px !important;
+        line-height: 130px !important;
+        letter-spacing: 0.3px;
+        }
+        .mainSection h2
+        {
+        font-size: 25px !important;
+        letter-spacing: 0.3px;
+        left: 10%;
+        }
+        #myVideo {
+        position: fixed;
+        right: -5% !important;
+        top: 0px !important;
+        min-width: 55% !important;
+        min-height: 55% !important;
+        width:125% !important;
+        }
+        .contact-us
+        {
+        position: absolute;
+        top: 45vh !important;
+        right: 0.5%;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        }
+}
+@media screen and (max-width:1919px) {
+    .panel .sections .menu li a
+    {
+        font-size: 17px;
+    }
+    .desktopButton.desktopActionButton
+    {
+        top: 16px !important;
+    }
+    .panel .sections {
+        padding-left: 125px;
+        padding-right: 125px;
+        padding-top: 15px !important;
+      }
+      .mainSection
+        {
+        position: relative;
+        left: 50% !important;
+        top: 0vh !important;
+        }
+      .mainSection h1
+        {
+        font-size: 140px !important;
+        line-height: 100px !important;
+        letter-spacing: 0.3px;
+        }
+        .mainSection h2
+        {
+        font-size: 25px !important;
+        letter-spacing: 0.3px;
+        left: 10%;
+        }
+        #myVideo {
+        position: fixed;
+        right: 0% !important;
+        top: -50px !important;
+        min-width: 55% !important;
+        min-height: 55% !important;
+        width:100% !important;
+        }
+        .contact-us
+        {
+        position: absolute;
+        top: 45vh !important;
+        right: 0.5%;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        }
+        .our-company-img
+        {
+        right: 0% !important;
+        }
+        .mt-5 h4
+        {
+        width: 50%;
+        }
+        .new-width
+        {
+            width: 65% !important;
+        }
+}
+@media screen and (max-width:1679px) {
+    .panel .sections .menu li a
+    {
+        font-size: 17px;
+    }
+    .desktopButton.desktopActionButton
+    {
+        top: 16px !important;
+    }
+    .panel .sections {
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 15px !important;
+      }
+      .mainSection
+        {
+        position: relative;
+        left: 45% !important;
+        top: 5vh !important;
+        }
+      .mainSection h1
+        {
+        font-size: 120px !important;
+        line-height: 100px !important;
+        letter-spacing: 0.3px;
+        }
+        .mainSection h2
+        {
+        font-size: 25px !important;
+        letter-spacing: 0.3px;
+        left: 10%;
+        }
+        #myVideo {
+            position: fixed;
+            right: 5% !important;
+            top: -50px !important;
+            min-width: 55% !important;
+            min-height: 55% !important;
+            width:100% !important;
+        }
+        .contact-us
+        {
+        position: absolute;
+        top: 45vh !important;
+        right: 0.5%;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        }
+        .mainSection2
+        {
+        position: absolute;
+        left: 10vh !important;
+        top: 20vh !important;
+        }
+        .mainSection2 h1
+        {
+        font-size: 130px !important;
+        line-height: 120px;
+        }
+        .second-section
+        {
+            position: initial !important;
+            margin-top: 0vh !important;
+        }
+        .subtitle
+        {
+        font-size: 17px !important;
+        }
+        .paragraph
+        {
+        font-size: 12px !important;
+        }
+        .know-more
+        {
+        font-size: 12px !important;
+        padding-top: 5px;
+        }
+        .subtitle-product
+        {
+        font-size: 25px !important;
+        padding-bottom: 5px;
+        }
+        .paragraph-product
+        {
+        text-align: left;
+        font-family: "Resolve-RegularNrw";
+        font-size: 17px !important;
+        font-weight: 300;
+        }
+        .see-more
+        {
+        font-size: 13px !important;
+        padding-top: 25px !important;
+        }
+        .details,
+        .details-1
+        {
+        font-size: 24px !important;
+        margin-top: -15px !important;
+        }
+        .product-name
+        {
+        font-size: 17px !important;
+        line-height: 22px !important;
+        }
+        .product-a
+        {
+        color:white !important;
+        text-transform: uppercase !important;
+        text-decoration: none !important;
+        }
+        .products-row
+        {
+        position: relative;
+        left: -65px !important;
+        padding-left: 55px !important;
+        padding-right: 55px !important;
+        }
+        .float-right
+        {
+        position: relative;
+        left: 10% !important;
+        }
+        .margin-top
+        {
+        position: relative;
+        top: 10vh;
+        }
+        .why-us-img-padding
+        {
+          left: 20% !important;
+          width: 75%;
+        }
+        .react-multiple-carousel__arrow--right
+        {
+            margin-right: 85px !important;
+        }
+        .margin-left
+        {
+            position: relative;
+            left: -50px !important;
+        }
+        .row-position
+        {
+        position: relative;
+        left: -90px !important;
+        padding-left: 85px !important;
+        padding-right: 85px !important;
+        }
+        .react-multiple-carousel__arrow--left {
+            left: -3% !important;
+            top: 230px !important;
+          }
+          .react-multiple-carousel__arrow--right {
+            right: 2% !important;
+            top: 230px !important;
+          }
+          .mt
+        {
+            position: relative;
+            top: -80px;
+        }
+        .our-company-img
+        {
+        right: 0% !important;
+        }
+        .mt-5 h4
+        {
+        width: 50%;
+        }
+        .new-width
+        {
+            width: 55% !important;
+        }
+}
+@media screen and (max-width:1365px) {
+    .panel .sections .menu li a
+    {
+        font-size: 17px;
+    }
+    .desktopButton.desktopActionButton
+    {
+        top: 16px !important;
+    }
+    .panel .sections {
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 15px !important;
+      }
+      .mainSection
+        {
+        position: relative;
+        left: 40% !important;
+        top: 10vh !important;
+        }
+      .mainSection h1
+        {
+        font-size: 120px !important;
+        line-height: 100px !important;
+        letter-spacing: 0.3px;
+        }
+        .mainSection h2
+        {
+        font-size: 25px !important;
+        letter-spacing: 0.3px;
+        left: 10%;
+        }
+        #myVideo {
+            position: fixed;
+            right: 7% !important;
+            top: 0 !important;
+            min-width: 55% !important;
+            min-height: 55% !important;
+            width:100% !important;
+        }
+        .contact-us
+        {
+        position: absolute;
+        top: 45vh !important;
+        right: 0.5%;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        }
+        .mainSection2
+        {
+        position: absolute;
+        left: 10vh !important;
+        top: 20vh !important;
+        }
+        .mainSection2 h1
+        {
+        font-size: 130px !important;
+        line-height: 120px;
+        }
+        .res-mar
+        {
+            position: relative;
+            top: -25px;
+        }
+        .second-section
+        {
+            position: initial !important;
+            margin-top: 0vh !important;
+        }
+        .subtitle
+        {
+        font-size: 17px !important;
+        }
+        .paragraph
+        {
+        font-size: 12px !important;
+        }
+        .new-width
+        {
+            width: 55% !important;
+        }
+        .know-more
+        {
+        font-size: 12px !important;
+        padding-top: 5px;
+        width: 50% !important;
+        }
+        .subtitle-product
+        {
+        font-size: 25px !important;
+        padding-bottom: 5px;
+        }
+        .paragraph-product
+        {
+        text-align: left;
+        font-family: "Resolve-RegularNrw";
+        font-size: 17px !important;
+        font-weight: 300;
+        }
+        .see-more
+        {
+        font-size: 13px !important;
+        padding-top: 25px !important;
+        }
+        .details-1,
+        .details
+        {
+        font-size: 22px !important;
+        margin-top: -15px !important;
+        }
+        .product-name
+        {
+        font-size: 17px !important;
+        }
+        .product-a
+        {
+        color:white !important;
+        text-transform: uppercase !important;
+        text-decoration: none !important;
+        }
+        .mt
+        {
+            position: relative;
+            top: -100px;
+        }
+        .products-row
+        {
+        position: relative;
+        left: -65px !important;
+        padding-left: 55px !important;
+        padding-right: 55px !important;
+        }
+        .float-right
+        {
+        position: relative;
+        left: 10% !important;
+        }
+        .margin-top
+        {
+        position: relative;
+        top: 10vh;
+        }
+        .why-us-img-padding
+        {
+          left: 22% !important;
+          width: 75%;
+        }
+        .react-multiple-carousel__arrow--right
+        {
+            margin-right: 85px !important;
+        }
+        .margin-left
+        {
+            position: relative;
+            left: -50px !important;
+        }
+        .row-position
+        {
+        position: relative;
+        left: -90px !important;
+        padding-left: 85px !important;
+        padding-right: 85px !important;
+        }
+        .our-company-img
+        {
+        right: 5% !important;
+        }
+        .mt-5 h4
+        {
+        width: 50%;
+        }
+}
+@media screen and (max-width:1200px) {
+    .panel .sections .menu li a
+    {
+        font-size: 13px;
+        margin-left: 50px;
+    }
+    .desktopButton.desktopActionButton
+    {
+        top: 20px !important;
+    }
+    .logo
+    {
+        padding-top: 15px !important;
+    }
+    .panel .sections {
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 10px;
+      }
+      .mainSection
+        {
+        position: relative;
+        left: 30% !important;
+        top: 5vh !important;
+        }
+      .mainSection h1
+        {
+        font-size: 120px !important;
+        line-height: 100px !important;
+        letter-spacing: 0.3px;
+        }
+        .mainSection h2
+        {
+        font-size: 20px !important;
+        letter-spacing: 0.3px;
+        margin-top: 5px;
+        left: 10%;
+        }
+        #myVideo {
+            position: fixed;
+            right: 2% !important;
+            top: -25px !important;
+            min-width: 55% !important;
+            min-height: 55% !important;
+            width:105% !important;
+        }
+        .contact-us
+        {
+        position: absolute;
+        top: 45vh !important;
+        right: 0.5%;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        }
+
+        .mainSection2
+        {
+        position: absolute;
+        left: 10vh !important;
+        top: 20vh !important;
+        }
+        .mainSection2 h1
+        {
+        font-size: 100px !important;
+        line-height: 120px;
+        }
+        .second-section
+        {
+            position: initial !important;
+            margin-top: -25px !important;
+        }
+        .subtitle
+        {
+        font-size: 17px !important;
+        }
+        .paragraph
+        {
+        font-size: 12px !important;
+        }
+        .know-more
+        {
+        font-size: 12px !important;
+        padding-top: 0px;
+        width: 50% !important;
+        }
+        .subtitle-product
+        {
+        font-size: 25px !important;
+        padding-bottom: 5px;
+        }
+        .paragraph-product
+        {
+        text-align: left;
+        font-family: "Resolve-RegularNrw";
+        font-size: 17px !important;
+        font-weight: 300;
+        }
+        .see-more
+        {
+        font-size: 13px !important;
+        padding-top: 5px !important;
+        }
+        .details
+        {
+        font-size: 22px !important;
+        margin-top: 5px !important;
+        }
+        .product-name
+        {
+        font-size: 17px !important;
+        }
+        .product-a
+        {
+        color:white !important;
+        text-transform: uppercase !important;
+        text-decoration: none !important;
+        }
+        .products-row
+        {
+        position: relative;
+        left: -105px !important;
+        padding-left: 105px !important;
+        padding-right: 105px !important;
+        }
+        .float-right
+        {
+        position: relative;
+        left: 10% !important;
+        }
+        .margin-top
+        {
+        position: relative;
+        top: 10vh;
+        }
+        .why-us-img-padding
+        {
+          left: 25% !important;
+          width: 65%;
+        }
+        .react-multiple-carousel__arrow--right
+        {
+            margin-right: 85px !important;
+        }
+        .row-position
+        {
+        position: relative;
+        left: -90px !important;
+        padding-left: 85px !important;
+        padding-right: 85px !important;
+        }
+        .second-section h2
+        {
+        position: relative;
+        left: 0;
+        padding-bottom: 5px;
+        font-size: 15px !important;
+        }
+        .card p
+        {
+            font-size: 10px !important;
+        }
+        .margin-left
+        {
+            position: relative;
+            left: -80px !important;
+        }
+        .mt
+        {
+            position: relative;
+            top: -100px;
+        }
+        .our-company-img
+        {
+            right: 0 !important;
+        }
+        .company-position
+        {
+            position: relative;
+            left: -85px !important;
+            top: 25px;
+        }
+}
+@media screen and (min-width: 320px) and (max-width: 919px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  }
+@media screen and (max-width:991px) {
+    .panel .sections .menu li a
+    {
+        font-size: 13px;
+        margin-left: 25px;
+    }
+    .desktopButton.desktopActionButton
+    {
+        top: 20px !important;
+    }
+    .logo
+    {
+        padding-top: 15px !important;
+    }
+    .panel .sections {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+    }
+    .mainSection
+    {
+    position: relative;
+    left: 30% !important;
+    top: 50px !important;
+    }
+    .mainSection h1
+    {
+    font-size: 80px !important;
+    line-height: 65px !important;
+    letter-spacing: 0.3px;
+    }
+    .mainSection h2
+    {
+    font-size: 20px !important;
+    letter-spacing: 0.3px;
+    left: 0 !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    .contact-us
+        {
+        position: absolute;
+        top: 45vh !important;
+        right: 0.5%;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        }
+        #myVideo {
+            position: fixed;
+            right: -10% !important;
+            top: 10vh !important;
+            min-width: 55% !important;
+            min-height: 55% !important;
+            width: 120% !important;
+        }
+        
+        .company-position
+        {
+            left: -8% !important;
+        }
+        .our-company-img
+        {
+            padding: 150px !important;
+            top: 0 !important;
+            right: -15% !important;
+        }
+        .paragraph-gray
+        {
+            width: 40% !important;
+        }
+        .products-row
+        {
+            padding-left: 65px !important;
+            padding-right: 65px !important;
+            left: -65px !important;
+        }
+        .paragraph-product
+        {
+            width: 65% !important;
+            text-align: left !important;
+        }
+        .paragraph-subtitle
+        {
+            width: 45% !important;
+            text-align: left !important;
+        }
+        .mar-l
+        {
+            left: 95px !important;
+        }
+        .mainSection2
+        {
+            left: 50px !important;
+        }
+        .mt
+        {
+            top: -50px !important;
+        }
+}
+
+@media screen and (max-width:767px) {
+    .panel .sections .menu li a
+    {
+        font-size: 13px;
+        margin-left: 40px;
+        display: none;
+    }
+    .desktopButton.desktopActionButton
+    {
+        top: 20px !important;
+        display: block !important;
+    }
+    .logo
+    {
+        padding-top: 15px !important;
+    }
+    .panel .sections {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+    }
+    .mainSection
+    {
+    position: relative;
+    left: 0% !important;
+    top: 10px !important;
+    padding: 50px;
+    }
+    #myVideo {
+        position: fixed;
+        right: -25% !important;
+        top: 50px !important;
+        min-width: 55% !important;
+        min-height: 55% !important;
+        width:145% !important;
+    }
+    .mainSection h1
+    {
+    font-size: 80px !important;
+    line-height: 65px !important;
+    letter-spacing: 0.3px;
+    }
+    .mainSection h2
+    {
+    font-size: 20px !important;
+    letter-spacing: 0.3px;
+    left: 0 !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    .mainSection2
+    {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        padding: 50px;
+    }
+    .mainSection2 h1
+    {
+        font-size: 75px !important;
+        line-height: 55px !important;
+        padding-bottom: 20px;
+    }
+    .float-right
+    {
+        left: 0 !important;
+    }
+    .paragraph
+    {
+        width: 95%;
+    }
+    .products-row
+    {
+        left: -25px !important;
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+    }
+    .special
+    {
+        position: relative;
+        left: -100px !important;
+    }
+    .paragraph-product,
+    .paragraph-subtitle
+    {
+        width: 75%;
+        text-align: left;
+    }
+    .mar-l
+    {
+        left: 0 !important;
+    }
+      .row-position
+      {
+          left: 0 !important;
+          padding-right: 15px !important;
+          padding-left: 15px !important;
+      }
+      .mt
+      {
+          top: 0 !important;
+      }
+      .know-more
+      {
+        width: 100% !important;
+      }
+      .products-container
+      {
+          height: 65vh !important;
+      }
+      .new-width
+      {
+          width: 100% !important;
+      }
+      .our-company-img
+      {
+          padding: 0 !important;
+          top: 25vh !important;
+          right: 0 !important;
+          padding: 25px !important;
+      }
+      .company-position
+      {
+          background-color: rgba(0, 0, 0, 0.63);
+          width: 117% !important;
+          padding-bottom: 50px;
+      }
+}
+

@@ -1,0 +1,675 @@
+/* FONTS */
+@font-face {
+    font-family: 'Resolve-RegularNrw';
+    src: url(../fonts/Resolve-RegularNrw.otf);
+  }
+  
+  @font-face {
+    font-family: 'Resolve-BoldCnIta';
+    src: url(../fonts/Resolve-BoldCnIta.otf);
+  }
+  
+  @font-face {
+    font-family: 'Suisse Int-semi-bold';
+    src: url(../fonts/Suisse-Intl-SemiBold.otf);
+  }
+  
+  @font-face {
+    font-family: 'Suisse Int-regular';
+    src: url(../fonts/Suisse-Intl-Regular.otf);
+}
+.slide
+{
+  background-color: #000 !important;
+}
+.logo
+{
+  padding-top: 0px;
+}
+#myVideo {
+    position: fixed;
+    right: 15%;
+    top: 0vh;
+    min-width: 50%;
+    min-height: 50%;
+}
+#myVideoOrange
+{
+  position: fixed;
+  right: 0%;
+  top: 0vh;
+  min-width: 100%;
+  min-height: 100%;
+}
+.Selected
+{
+    color: #ff4713 !important;
+    text-decoration: underline;
+}
+.mainSection
+{
+  position: relative;
+  left: 45%;
+  top: 5vh;
+}
+.mainSection h1
+{
+  font-size: 160px;
+  font-family: 'Resolve-BoldCnIta';
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 120px;
+  letter-spacing: 0.3px;
+  color: #e5e1e6;
+}
+.mainSection h2
+{
+  font-size: 30px;
+  font-family: 'Resolve-RegularNrw';
+  text-align: left;
+  letter-spacing: 0.3px;
+  position: relative;
+  left: 10%;
+}
+.spanOrange
+{
+  color: #ff4713 !important;
+}
+.contact-us
+{
+  position: absolute;
+  top: 455px;
+  right: 0.5%;
+  font-size: 20px;
+  font-family: "Resolve-RegularNrw";
+  letter-spacing: 0.5px;
+  display:block;
+  -webkit-transform: rotate(90deg); 
+  -moz-transform: rotate(90deg); 
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.contact-us:hover
+{
+  color: #ff4713 !important;
+}
+.arrowWIDTH
+{
+  position: relative;
+  top: -33px !important;
+  left: 120px;
+  display:block;
+  -webkit-transform: rotate(-90deg) !important; 
+  -moz-transform: rotate(-90deg) !important; 
+  width: 20px !important;
+}
+.mainSection2
+{
+  position: absolute;
+  left: 0%;
+  top: 20vh;
+}
+.mainSection2 h1
+{
+  font-size: 160px;
+  font-family: 'Resolve-BoldCnIta';
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 120px;
+  letter-spacing: 0.3px;
+  color: #e5e1e6;
+}
+.mainSection2 h2
+{
+  font-size: 30px;
+  font-family: 'Resolve-RegularNrw';
+  text-align: left;
+  letter-spacing: 0.3px;
+  position: relative;
+  left: 10%;
+}
+.mainSection2 h3
+{
+  font-size: 30px;
+  font-family: 'Resolve-RegularNrw';
+  text-align: left;
+  letter-spacing: 0.3px;
+  position: relative;
+  left: 0%;
+  padding-top: 25px;
+}
+.second-section
+{
+  position: relative;
+  top: 5vh !important;
+  left: 5px;
+}
+.subtitle
+{
+  text-align: left;
+  font-family: "Resolve-RegularNrw";
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #ff4713;
+  font-weight: 550;
+  padding-bottom: 5px;
+}
+.subtitle-product
+{
+  text-align: left;
+  font-family: "Resolve-RegularNrw";
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #ff4713;
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+a:hover
+{
+  transition: 0.3;
+  color: #ff4713 !important;
+}
+.paragraph-product
+{
+  text-align: left;
+  font-family: "Resolve-RegularNrw";
+  font-size: 25px;
+  font-weight: 300;
+}
+.paragraph
+{
+  text-align: left;
+  font-family: "Suisse Int-regular";
+  font-size: 15px;
+  font-weight: 300;
+}
+.know-more
+{
+  text-transform: uppercase;
+  color: #54565a;
+  font-family: "Suisse Int-regular";
+  font-weight: 500;
+  text-align: left;
+  font-size: 17px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+.know-more a
+{
+  color: #54565a !important;
+}
+.see-more
+{
+  position: absolute;
+  top: 100%;
+  text-transform: uppercase;
+  color: #54565a;
+  font-family: "Suisse Int-regular";
+  font-weight: 300;
+  text-align: left;
+  text-decoration: underline;
+  font-size: 18px;
+  padding-top: 75px;
+  left: 0;
+
+}
+.details
+{
+  font-family: "Resolve-BoldCnIta";
+  font-size: 27px;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 55px;
+  color: #54565a;
+}
+.details-1
+{
+  font-family: "Resolve-BoldCnIta";
+  font-size: 27px;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 20px;
+  color: #54565a;
+}
+li[data-index='8'],
+li[data-index='10'] {
+  display: none !important;
+}
+li[data-index='9'] {
+  width: 1320px !important;
+  position: relative;
+  left: -25px  !important;
+}
+.product-name
+{
+  font-family: "Resolve-BoldCnIta";
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  font-weight: 300 !important;
+}
+.product-a
+{
+  color:white !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+}
+.products-row
+{
+  position: relative;
+  left: -35px;
+}
+.float-right
+{
+  position: relative;
+  left: 20%;
+}
+.margin-top
+{
+  position: relative;
+  top: 10vh;
+}
+/* .why-us-img
+{
+  position: relative;
+  top: 15vh;
+  left: 15%;
+} */
+.why-us-img-padding
+{
+  position: relative;
+  top: 15vh;
+  left: 22%;
+}
+.react-multi-carousel-item
+{
+  margin-left: 5px;
+}
+.logo-loader
+{
+  position: absolute;
+  left: 38%;
+  top: 35vh;
+  width: 20%;
+}
+.loadgo-overlay
+{
+  position: absolute !important;
+  left: 38% !important;
+  top: 35vh !important;
+  width: 20% !important;
+}
+.card
+{
+  background-color: rgba(110, 110, 110, 0.301) !important;
+  border-radius: 15px !important;
+}
+.card:hover
+{
+  background-color: rgba(165, 159, 159, 0.301) !important;
+  transition: 0.3s;
+}
+.paragraph a
+{
+  color: white !important;
+  text-decoration: none !important;
+}
+.second-section h2
+{
+  position: relative;
+  left: 0;
+  padding-bottom: 5px;
+}
+.row-position
+{
+  position: relative;
+  left: -30px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.paragraph-subtitle
+{
+  position: absolute;
+  left: 0;
+  font-size: 12px;
+  color: #ff4713;
+  font-family: "Suisse Int-regular";
+}
+.footer
+{
+  position: absolute !important;
+  bottom: 10vh !important;
+  width: 100% !important;
+  height: 30vh;
+}
+.rc-footer-container
+{
+  max-width: 100% !important;
+  padding: 80px 225px 20px !important;
+}
+.rc-footer-bottom-container
+{
+  max-width: 1400px !important;
+}
+.rc-footer-column
+{
+  margin-bottom: 15px !important;
+}
+.rc-footer-column h2
+{
+  font-family: 'Resolve-RegularNrw' !important;
+  font-size: 25px !important;
+  color: #ff4713 !important;
+}
+.rc-footer-item-description,
+.rc-footer a
+{
+  font-family: 'Resolve-RegularNrw' !important;
+  font-size: 17px !important;
+}
+.react-multiple-carousel__arrow--left {
+  left: -1% !important;
+  top: 80px !important;
+}
+.react-multiple-carousel__arrow--right {
+  right: -1% !important;
+  top: 80px !important;
+}
+.a-products-hover:hover
+{
+  color: #ff4713;
+  transition: 0.3s;
+}
+.mar-l
+{
+  position: relative;
+  left: 150px;
+}
+.mt-4
+{
+  position: relative;
+  top: 20px !important;
+}
+.mt-5
+{
+  position: relative;
+  top: 40px !important;
+}
+.mt-5 h4
+{
+  text-align: left !important;
+  font-family: "Suisse Int-regular" !important;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.paragraph-gray
+{
+  color: #54565a !important;
+  position: relative;
+  top: -10px;
+  font-weight: 600 !important;
+}
+.company-position
+{
+  position: relative;
+  left: -100px;
+  top: 25px;
+}
+.mt-3 p
+{
+  width: 75%;
+}
+.mt-4 p
+{
+  width: 75%;
+}
+.mt-5 p
+{
+  width: 75%;
+}
+.our-company-img
+{
+  position: absolute;
+  top: 15vh;
+  right: -5%;
+}
+.sidebar .mainMenu li a
+{
+  text-decoration: none !important;
+  color: #fff;
+}
+@media screen and (max-width:1679px) {
+  .footer
+  {
+  position: absolute !important;
+  bottom: 0vh !important;
+  width: 100% !important;
+  height: 30vh;
+  }
+  .rc-footer-container
+  {
+    max-width: 100% !important;
+    padding: 15px 130px 0px !important;
+  }
+  .rc-footer-bottom-container
+  {
+  max-width: 1400px !important;
+  padding: 15px 0 !important;
+  line-height: normal !important;
+  font-size: 13px !important;
+  position: relative;
+    top: 50px;
+  }
+  .rc-footer-column
+  {
+  margin-bottom: -5px !important;
+  }
+  .rc-footer-column h2
+  {
+  font-family: 'Resolve-RegularNrw' !important;
+  font-size: 17px !important;
+  }
+  .rc-footer-item-description,
+  .rc-footer a
+  {
+  font-family: 'Resolve-RegularNrw' !important;
+  font-size: 13px !important;
+  }
+  li[data-index='9'] {
+    width: 1150px !important;
+    position: relative;
+    left: -25px  !important;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: -3% !important;
+    top: 230px !important;
+  }
+  .react-multiple-carousel__arrow--right {
+    right: 2% !important;
+    top: 230px !important;
+  }
+}
+@media (min-width:1400px) and (max-width:1679px) {
+  li[data-index='9'] {
+    width: 1325px !important;
+    position: relative;
+    left: -25px  !important;
+  }
+}
+@media (min-width:1366px) and (max-width:1679px) {
+  .footer
+  {
+  position: absolute !important;
+  bottom: 7vh !important;
+  width: 100% !important;
+  height: 30vh;
+  }
+}
+@media screen and (max-width:1365px) {
+  .footer
+  {
+  position: absolute !important;
+  bottom: 7vh !important;
+  width: 100% !important;
+  height: 30vh;
+  }
+  .rc-footer-container
+  {
+    max-width: 100% !important;
+    padding: 15px 75px 0px !important;
+  }
+  .rc-footer-bottom-container
+  {
+  max-width: 1400px !important;
+  padding: 20px 0 !important;
+  line-height: normal !important;
+  font-size: 13px !important;
+  }
+  .rc-footer-column
+  {
+  margin-bottom: -5px !important;
+  }
+  .rc-footer-column h2
+  {
+  font-family: 'Resolve-RegularNrw' !important;
+  font-size: 15px !important;
+  }
+  .rc-footer-item-description,
+  .rc-footer a
+  {
+  font-family: 'Resolve-RegularNrw' !important;
+  font-size: 10px !important;
+  }
+  li[data-index='9'] {
+    width: 1150px !important;
+    position: relative;
+    left: -25px  !important;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: -3% !important;
+    top: 230px !important;
+  }
+  .react-multiple-carousel__arrow--right {
+    right: 2% !important;
+    top: 230px !important;
+  }
+}
+@media screen and (max-width:1200px) {
+
+  .footer
+        {
+        position: absolute !important;
+        bottom: 5vh !important;
+        width: 100% !important;
+        height: 30vh;
+        }
+        .rc-footer-container
+        {
+          max-width: 100% !important;
+          padding: 15px 40px 0px !important;
+        }
+        .rc-footer-bottom-container
+        {
+        max-width: 1400px !important;
+        padding: 5px 0 !important;
+        line-height: normal !important;
+        font-size: 10px !important;
+        }
+        .rc-footer-column
+        {
+        margin-bottom: -5px !important;
+        }
+        .rc-footer-column h2
+        {
+        font-family: 'Resolve-RegularNrw' !important;
+        font-size: 15px !important;
+        }
+        .rc-footer-item-description,
+        .rc-footer a
+        {
+        font-family: 'Resolve-RegularNrw' !important;
+        font-size: 10px !important;
+        }
+        li[data-index='9'] {
+          width: 1000px !important;
+          position: relative;
+          left: -25px  !important;
+        }
+        .react-multiple-carousel__arrow--left {
+          left: -1% !important;
+          top: 200px !important;
+        }
+        .react-multiple-carousel__arrow--right {
+          right: 2% !important;
+          top: 200px !important;
+        }
+}
+@media (min-width:769px) and (max-width:991px) {
+  li[data-index='9'] {
+    width:  715px !important;
+    position: relative;
+    left: -35px  !important;
+  }
+   li[data-index='11']
+   {
+       left: 50px !important;
+   }
+   .footer
+   {
+     bottom: -5vh !important;
+   }
+ 
+}
+@media screen and (max-width:768px) {
+  .footer
+  {
+    position: relative !important;
+    bottom: -45vh !important;
+  }
+}
+@media screen and (max-width:767px) {
+  body
+  {
+    background-image: url(../assets/bg.gif) !important;
+    background-attachment: fixed !important;
+    background-position :bottom !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  .rc-footer
+  {
+    background-color: transparent !important;
+  }
+  .react-multiple-carousel__arrow--right
+  {
+    right: -20% !important;
+  }
+  li[data-index='9'],i[data-index='8']{
+    display: block !important;
+   }
+   li[data-index='8'],
+li[data-index='10'] {
+  display: block !important;
+}
+   li[data-index='8']
+   {
+       left: 50px !important;
+   }
+  .rc-footer-column h2
+  {
+    margin: 0 auto 0px !important;
+  }
+  .footer
+  {
+    position: relative !important;
+    bottom: 0 !important;
+  }
+  .logo-loader,.loadgo-overlay
+  {
+    z-index: -1 !important;
+  }
+}
