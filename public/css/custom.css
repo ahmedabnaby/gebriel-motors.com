@@ -344,7 +344,7 @@ li[data-index='9'] {
   bottom: 10vh !important;
   width: 100% !important;
   height: 30vh;
-  z-index: 9999 !important;
+  /* z-index: 9999 !important; */
 }
 .rc-footer-container
 {
