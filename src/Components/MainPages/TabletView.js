@@ -3,9 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Footer from '../../Includes/Footer';
-import Mobile from "./MobileView"
-import Tablet from "./TabletView"
-import { BrowserView, TabletView, MobileView} from 'react-device-detect';
 
 const responsive_products = {
   desktop: {
@@ -43,16 +40,14 @@ const responsive_contact = {
   }
 };
 
-function Home() {
+function Tablet() {
     return (
       <div>
-        <BrowserView>
-        <section className="slide kenBurns" id="home">
-          <div className="content">
-            <div className="container">
-              <div className="wrap">
-                <div className="fix-12-12 ">
-                  <div className="fix-12-12 mainSection">
+
+
+
+            <div className="container mainSection">
+                  <div className="mainSection">
                     <h1 className='wide fromCenter'>
                       <span className='ae-1'>get right </span> 
                       <span className='ae-5'>to the <br/> </span>
@@ -60,24 +55,9 @@ function Home() {
                       <span className='spanOrange ae-10'>parts</span>
                       </h1>
                       <h2 className='wide fromCenter ae-10'>Where parts are the trades, and quality <br/> is the merchandise.</h2>
-                  </div>
                 </div>
-              </div>
-            </div>
-                  <a href="#contact-us" className="contact-us">contact us <img src="assets/gebriel-motors/arrow.png" className="arrowWIDTH" alt="..." /> </a>
-          </div>
-          <video autoPlay muted loop playsInline id="myVideo">
-          <source src="assets/car-engine2.mp4" type="video/mp4" />
-        </video>
-        </section>
 
-        
-        <section className="slide kenBurns fromLeft" id="home2">
-        <div className="content">
-            <div className="container">
-              <div className="wrap">
-              <div className="fix-12-12 ">
-                  <div className="fix-12-12 mainSection">
+                  <div className="mainSection">
                     <h1 className='wide fromLeft'>
                       <span className='spanOrange ae-1'>Value </span> 
                       <span className='ae-5'>is what <br/> </span>
@@ -86,45 +66,19 @@ function Home() {
                       </h1>
                       <h2 className='wide fromLeft ae-10'>Supplying quality is our commitment,<br/>products grade is our promise.</h2>
                   </div>
-                </div>
-              </div>
-            </div>
-                  <a href="#contact-us" className="contact-us">contact us <img src="assets/gebriel-motors/arrow.png" className="arrowWIDTH" alt="..." /> </a>
-          </div>
-          <video autoPlay muted loop playsInline id="myVideo">
-          <source src="assets/car-engine2.mp4" type="video/mp4" />
-        </video>
-        </section>
 
-        <section className="slide kenBurns fromRight" id="home3">
-        <div className="content">
-            <div className="container">
-              <div className="wrap">
-              <div className="fix-12-12 ">
-                  <div className="fix-12-12 mainSection">
+                  <div className="mainSection">
                     <h1 className='wide fromRight'>
                       <span className='ae-1'>All Your <br/></span> 
                       <span className='spanOrange ae-5'>Veichle </span>
                       <span className='ae-8'>Needs </span>
                       </h1>
                       <h2 className='wide fromRight ae-10'>Is our dedication till parts fall<br/>into places.</h2>
-                  </div>
                 </div>
-              </div>
             </div>
-                  <a href="#contact-us" className="contact-us">contact us <img src="assets/gebriel-motors/arrow.png" className="arrowWIDTH" alt="..." /> </a>
-          </div>
-          <video autoPlay muted loop playsInline id="myVideo">
-          <source src="assets/car-engine2.mp4" type="video/mp4" />
-        </video>
-        </section>
-  
-        <section className="slide kenBurns fromCenter" id="our-company">
-        <div className="content">
-            <div className="container">
-              <div className="wrap">
-              <div className="fix-12-12 ">
-                  <div className="fix-12-12 mainSection2">
+
+            <div className="container" id="our-company">
+                  <div className="mainSection2">
                     <h1 className='wide fromRight'>
                       <span className='ae-1'>Our <span className='spanOrange ae-5'>Company</span></span> 
                       </h1>
@@ -149,21 +103,10 @@ Ruling the Egyptian market is one vision, among leading the market international
                       </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <a href="#contact-us" className="contact-us">contact us <img src="assets/gebriel-motors/arrow.png" className="arrowWIDTH" alt="..." /> </a>
-          </div>
-          <video autoPlay muted loop playsInline id="myVideoOrange">
-          <source src="assets/video.mp4" type="video/mp4" />
-        </video>
-        </section>
 
-        <section className="slide kenBurns fromCenter" id="products">
-        <div className="content">
-            <div className="container">
-              <div className="wrap">
-              <div className="fix-12-8 ">
-                  <div className="fix-12-8 mainSection2">
+            <div className="container products-container" id="products">
+              <div className="fix-12-12 ">
+                  <div className="mainSection2">
                     <h1 className='wide fromRight'>
                       <span className='ae-1'>Our <span className='spanOrange ae-5'>Products</span></span> 
                       </h1>
@@ -294,51 +237,7 @@ Ruling the Egyptian market is one vision, among leading the market international
                             </div>
                           </div>
                         </div>
-                        <div className='col-md-12'>
-                        </div>
-                        <div className='col-md-12'>
-                          <h3 className='subtitle-product ae-1'>MAHLE IZUMI</h3>
-                          <p className='paragraph-product ae-3'>Quality award-winning  |  One of our prime suppliers <br/> Our products are used within worldwide race tracks</p>
-                          <p className='details-1 ae-5'>- <br/>Japanese Guiding Company</p>
-                          <div className='row products-row'>
-                            <div className='col ae-5 a-products-hover'>
-                              <img src='assets/gebriel-motors/product18.png' className='pb-4'/>
-                              <p className='product-name'>{">> "}&nbsp;Piston set</p>
-                            </div>
-                            <div className='col ae-5 a-products-hover'>
-                              <img src='assets/gebriel-motors/product19.png' className='pb-4'/>
-                            </div>
-                            <div className='col ae-5 a-products-hover'>
-                              <img src='assets/gebriel-motors/product20.png' className='pb-4'/>
-                            </div>
-                            <div className='col ae-5 a-products-hover'>
-                              <img src='assets/gebriel-motors/product21.png' className='pb-4'/>
-                              <p className='product-name'>{">> "}&nbsp;Cylinder Liners</p>
-                            </div>
-                            <div className='col ae-5 a-products-hover'>
-                              <img src='assets/gebriel-motors/product22.png' className='pb-4'/>
-                              <p className='product-name'>{">> "}&nbsp;Liner kit</p>
-                            </div>
-                            <div className='col ae-5 a-products-hover'>
-                              <img src='assets/gebriel-motors/product23.png' className='pb-4'/>
-                            </div>
-                            <div className='col ae-5 a-products-hover'>
-                              <img src='assets/gebriel-motors/product24.png' className='pb-4'/>
-                            </div>
-                            <div className='col ae-5 a-products-hover'>
-                              <img src='assets/gebriel-motors/product25.png' className='pb-4'/>
-                            </div>
-                            <div className='col ae-5 a-products-hover'>
-                              <img src='assets/gebriel-motors/product26.png' className='pb-4'/>
-                            </div>
-                            <div className='col ae-5 a-products-hover'>
-                              <img src='assets/gebriel-motors/product27.png' className='pb-4'/>
-                            </div>
-                          </div>
-                        </div>
-                        <div className='col-md-12'>
-
-                        </div>
+                        
                         <div className='col-md-12'>
                           <h3 className='subtitle-product margin-left ae-1'>KGK</h3>
                           <p className='paragraph-product margin-left ae-3'>One of our prime suppliers. <br/> Suppliers of high-performance products</p>
@@ -357,19 +256,7 @@ Ruling the Egyptian market is one vision, among leading the market international
                   </div>
                 </div>
               </div>
-            </div>
-            <a href="#contact-us" className="contact-us">contact us <img src="assets/gebriel-motors/arrow.png" className="arrowWIDTH" alt="..." /> </a>
-          </div>
-          {/* <video autoPlay muted loop playsInline id="myVideoOrange">
-          <source src="assets/video.mp4" type="video/mp4" />
-        </video> */}
-        </section>
-
-        <section className="slide kenBurns fromCenter" id="why-us">
-        <div className="content">
-            <div className="container">
-              <div className="wrap">
-                  <div className="fix-12-12 mainSection2">
+              <div className="fix-12-12 mainSection2" id="why-us">
                     <h1 className='wide fromRight'>
                       <span className='ae-1'>Why <span className='spanOrange ae-5'>Us</span></span> 
                       </h1>
@@ -397,20 +284,6 @@ Ruling the Egyptian market is one vision, among leading the market international
                         </div>
                       </div>
                   </div>
-              </div>
-                    {/* <img src="assets/gebriel-motors/why-us.png" className='why-us-img-padding'/> */}
-            </div>
-            <a href="#contact-us" className="contact-us">contact us <img src="assets/gebriel-motors/arrow.png" className="arrowWIDTH" alt="..." /> </a>
-          </div>
-          <video autoPlay muted loop playsInline id="myVideoOrange">
-          <source src="assets/video.mp4" type="video/mp4" />
-        </video>
-        </section>
-
-        <section className="slide kenBurns fromCenter" id="contact-us">
-        <div className="content">
-            <div className="container">
-              <div className="wrap">
                   <div className="fix-12-12 mainSection2">
                     <h1 className='wide fromRight'>
                       <span className='ae-1'>Contact <span className='spanOrange ae-5'>Us</span></span> 
@@ -418,70 +291,11 @@ Ruling the Egyptian market is one vision, among leading the market international
                       <h3 className='wide fromRight'>
                       <span className='ae-1'>Don't <span className='spanOrange ae-5'>hesitate</span> to <span className='spanOrange ae-7'>contact us</span></span> 
                       </h3>
-                      {/* <div className='second-section'>
-                      <Carousel responsive={responsive_contact} className='second-section'>
-
-                      <div className='row row-position'>
-                        <h2>Egypt Branch:</h2>
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Mobile</h3>
-                          <p className='paragraph text-center ae-3'><a href='#'>(+20) 1027 4033 11 </a></p>
-                        </div>
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Landline</h3>
-                          <p className='paragraph text-center ae-3'><a href='#'>(+20) 22051044 </a></p>
-                        </div>
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Email</h3>
-                          <p className='paragraph text-center ae-3'><a href='#'>info@gebriel-motors.com  </a></p>
-                        </div>
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Address</h3>
-                          <p className='paragraph text-center ae-3'><a href='#'>8 Sengar St., Al Khalafawi, Shubra, Cairo Government, Egypt. </a></p>
-                        </div>
-                        </div>
-                        
-                        <div className='row row-position'>
-                        <h2>Dubai Branch:</h2>
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Mobile</h3>
-                          <p className='paragraph text-center ae-3'><a href='#'>(+20) 1027 4033 11 </a></p>
-                        </div>
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Landline</h3>
-                          <p className='paragraph text-center ae-3'><a href='#'>(+20) 1027 4033 11 </a></p>
-                        </div>
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Email</h3>
-                          <p className='paragraph text-center ae-3'><a href='#'>info@gebriel-motors.com </a></p>
-                        </div>
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Address</h3>
-                          <p className='paragraph text-center ae-3'><a href='#'>8 Sengar St., Al Khalafawi, Shubra, Cairo Government, Egypt. </a></p>
-                        </div>
-                        </div>
-                        </Carousel>
-
-                      </div> */}
-                  </div>
-              </div>
-                    {/* <img src="assets/gebriel-motors/why-us.png" className='why-us-img-padding'/> */}
-            </div>
-          </div>
-          {/* <div className="background" style={{backgroundImage:'url(assets/gebriel-motors/footerx.png)'}}></div> */}
-            <Footer/>
-        </section>
-        </BrowserView>
-
-        <TabletView>
-            <Tablet/>
-        </TabletView>
-        <MobileView>
-            <Mobile/>
-        </MobileView>
+                      </div>
+                      <Footer/>
       </div>
     )
   }
   
-  export default Home;
+  export default Tablet;
   
