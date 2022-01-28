@@ -456,6 +456,17 @@
         }
         
 }
+@media screen and (max-width:1280px) {
+    .navigation ul {
+        display: table-cell;
+        vertical-align: middle;
+        display: inline-flexbox !important;
+      }
+      .contact-us
+      {
+          display: none !important;
+      }
+}
 @media screen and (max-width:1200px) {
     .panel .sections .menu li a
     {
@@ -638,12 +649,6 @@
             left: -85px !important;
             top: 25px;
         }
-        .navigation ul {
-            display: table-cell;
-            vertical-align: middle;
-            display: inline-flexbox !important;
-            right: 100px !important;
-          }
 }
 @media screen and (min-width: 320px) and (max-width: 919px) and (orientation: landscape) {
     html {
