@@ -473,9 +473,9 @@ Ruling the Egyptian market is one vision, among leading the market international
         </section>
         </BrowserView>
 
-        <TabletView>
+        {/* <TabletView>
             <Tablet/>
-        </TabletView>
+        </TabletView> */}
         <MobileView>
             <Mobile/>
         </MobileView>

@@ -509,6 +509,7 @@
         right: 0.5%;
         font-size: 20px;
         letter-spacing: 0.5px;
+        display: none !important;
         }
 
         .mainSection2
@@ -637,6 +638,12 @@
             left: -85px !important;
             top: 25px;
         }
+        .navigation ul {
+            display: table-cell;
+            vertical-align: middle;
+            display: inline-flexbox !important;
+            right: 100px !important;
+          }
 }
 @media screen and (min-width: 320px) and (max-width: 919px) and (orientation: landscape) {
     html {
