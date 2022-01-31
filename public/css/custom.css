@@ -234,14 +234,23 @@ a:hover
   margin-top: 20px;
   color: #54565a;
 }
+.whitespace
+{
+  white-space: nowrap;
+}
 li[data-index='8'],
 li[data-index='10'] {
   display: none !important;
 }
 li[data-index='9'] {
-  width: 1320px !important;
+  width: 620px !important;
   position: relative;
   left: -25px  !important;
+}
+li[data-index='11'] {
+  width: 620px !important;
+  position: relative;
+  left: 725px  !important;
 }
 .product-name
 {
@@ -312,6 +321,11 @@ li[data-index='9'] {
   background-color: rgba(165, 159, 159, 0.301) !important;
   transition: 0.3s;
 }
+.marginRight
+{
+  position: relative;
+  left: 105px;
+}
 .paragraph a
 {
   color: white !important;
@@ -341,7 +355,7 @@ li[data-index='9'] {
 .footer
 {
   position: absolute !important;
-  bottom: 10vh !important;
+  bottom: 5vh !important;
   width: 100% !important;
   height: 30vh;
   /* z-index: 9999 !important; */
@@ -481,9 +495,14 @@ li[data-index='9'] {
   font-size: 13px !important;
   }
   li[data-index='9'] {
-    width: 1150px !important;
+    width: 520px !important;
     position: relative;
     left: -25px  !important;
+  }
+  li[data-index='11'] {
+    width: 620px !important;
+    position: relative;
+    left: 625px  !important;
   }
   .react-multiple-carousel__arrow--left {
     left: -3% !important;
@@ -496,16 +515,26 @@ li[data-index='9'] {
 }
 @media (min-width:1400px) and (max-width:1679px) {
   li[data-index='9'] {
-    width: 1325px !important;
+    width: 580px !important;
     position: relative;
     left: -25px  !important;
+  }
+  li[data-index='11'] {
+    width: 620px !important;
+    position: relative;
+    left: 765px  !important;
+  }
+  .details,
+  .details-1
+  {
+    margin-top: -25px !important;
   }
 }
 @media (min-width:1366px) and (max-width:1679px) {
   .footer
   {
   position: absolute !important;
-  bottom: 7vh !important;
+  bottom: 3vh !important;
   width: 100% !important;
   height: 30vh;
   }
@@ -514,7 +543,7 @@ li[data-index='9'] {
   .footer
   {
   position: absolute !important;
-  bottom: 7vh !important;
+  bottom: 3vh !important;
   width: 100% !important;
   height: 30vh;
   }
@@ -546,9 +575,14 @@ li[data-index='9'] {
   font-size: 10px !important;
   }
   li[data-index='9'] {
-    width: 1150px !important;
+    width: 520px !important;
     position: relative;
     left: -25px  !important;
+  }
+  li[data-index='11'] {
+    width: 620px !important;
+    position: relative;
+    left: 625px  !important;
   }
   .react-multiple-carousel__arrow--left {
     left: -3% !important;
@@ -596,9 +630,14 @@ li[data-index='9'] {
         font-size: 10px !important;
         }
         li[data-index='9'] {
-          width: 1000px !important;
+          width: 420px !important;
           position: relative;
           left: -25px  !important;
+        }
+        li[data-index='11'] {
+          width: 620px !important;
+          position: relative;
+          left: 625px  !important;
         }
         .react-multiple-carousel__arrow--left {
           left: -1% !important;

@@ -574,14 +574,15 @@
         font-size: 13px !important;
         padding-top: 5px !important;
         }
+        .details-1,
         .details
         {
         font-size: 22px !important;
-        margin-top: 5px !important;
+        margin-top: -25px !important;
         }
         .product-name
         {
-        font-size: 17px !important;
+        font-size: 12px !important;
         }
         .product-a
         {
@@ -892,5 +893,10 @@
           width: 117% !important;
           padding-bottom: 50px;
       }
+      .details,
+        .details-1
+        {
+            margin-top: 15px !important;
+        }
 }
 

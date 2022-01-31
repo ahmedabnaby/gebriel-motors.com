@@ -300,21 +300,23 @@ Ruling the Egyptian market is one vision, among leading the market international
                           <h3 className='subtitle-product ae-1'>MAHLE IZUMI</h3>
                           <p className='paragraph-product ae-3'>Quality award-winning  |  One of our prime suppliers <br/> Our products are used within worldwide race tracks</p>
                           <p className='details-1 ae-5'>- <br/>Japanese Guiding Company</p>
-                          <div className='row products-row'>
-                            <div className='col ae-5 a-products-hover'>
+                          <div className='row products-row-1'>
+                            <div className='col-2 ae-5 a-products-hover'>
                               <img src='assets/gebriel-motors/product18.png' className='pb-4'/>
                               <p className='product-name'>{">> "}&nbsp;Piston set</p>
                             </div>
-                            <div className='col ae-5 a-products-hover'>
+                            <div className='col-2 ae-5 a-products-hover'>
                               <img src='assets/gebriel-motors/product19.png' className='pb-4'/>
                             </div>
-                            <div className='col ae-5 a-products-hover'>
+                            <div className='col-2 ae-5 a-products-hover'>
                               <img src='assets/gebriel-motors/product20.png' className='pb-4'/>
                             </div>
-                            <div className='col ae-5 a-products-hover'>
+                            <div className='col-2 marginRight ae-5 a-products-hover'>
                               <img src='assets/gebriel-motors/product21.png' className='pb-4'/>
-                              <p className='product-name'>{">> "}&nbsp;Cylinder Liners</p>
+                              <p className='product-name whitespace'>{">> "}&nbsp;Cylinder Liners</p>
                             </div>
+                          </div>
+                          <div className='row products-row-2'>
                             <div className='col ae-5 a-products-hover'>
                               <img src='assets/gebriel-motors/product22.png' className='pb-4'/>
                               <p className='product-name'>{">> "}&nbsp;Liner kit</p>
@@ -415,60 +417,13 @@ Ruling the Egyptian market is one vision, among leading the market international
                     <h1 className='wide fromRight'>
                       <span className='ae-1'>Contact <span className='spanOrange ae-5'>Us</span></span> 
                       </h1>
-                      <h3 className='wide fromRight d-none'>
+                      <h3 className='wide fromRight'>
                       <span className='ae-1'>Don't <span className='spanOrange ae-5'>hesitate</span> to <span className='spanOrange ae-7'>contact us</span></span> 
                       </h3>
-                      <div className='second-section'>
-                      <Carousel responsive={responsive_contact} className='second-section'>
-
-                      <div className='row row-position'>
-                        <h2>Egypt Branch:</h2>
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Mobile</h3>
-                          <p className='paragraph text-center ae-3'><a href='tel:+201027403322'>(+20) 1027 4033 22 </a></p>
-                        </div>
-                        {/* <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Landline</h3>
-                          <p className='paragraph text-center ae-3'><a href='#'>(+20) 22051044 </a></p>
-                        </div> */}
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Email</h3>
-                          <p className='paragraph text-center ae-3'><a href='mailto:customerservice@gebriel-motors.com'>customerservice@gebriel-motors.com  </a></p>
-                        </div>
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Address</h3>
-                          <p className='paragraph text-center ae-3'><a href='#'>8 Sengar St., Al Khalafawi, Shubra, Cairo Government, Egypt. </a></p>
-                        </div>
-                        </div>
-                        
-                        <div className='row row-position'>
-                        <h2>Dubai Branch:</h2>
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Mobile</h3>
-                          <p className='paragraph text-center ae-3'><a href='tel:+971545575800'>(+971) 545 575 800 </a></p>
-                        </div>
-                        {/* <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Landline</h3>
-                          <p className='paragraph text-center ae-3'><a href='#'>(+20) 1027 4033 11 </a></p>
-                        </div> */}
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Email</h3>
-                          <p className='paragraph text-center ae-3'><a href='mailto:customerservice@gebriel-motors.com'>customerservice@gebriel-motors.com </a></p>
-                        </div>
-                        <div className='card col mx-2 pt-4 pb-4'>
-                          <h3 className='subtitle text-center ae-1'>Address</h3>
-                          <p className='paragraph text-center ae-3'><a href='https://goo.gl/maps/r4jag5Mo9LYYpd6v7'>8 Sengar St., Al Khalafawi, Shubra, Cairo Government, Egypt. </a></p>
-                        </div>
-                        </div>
-                        </Carousel>
-
-                      </div>
                   </div>
               </div>
-                    {/* <img src="assets/gebriel-motors/why-us.png" className='why-us-img-padding'/> */}
             </div>
           </div>
-          {/* <div className="background" style={{backgroundImage:'url(assets/gebriel-motors/footerx.png)'}}></div> */}
             <Footer/>
         </section>
         </BrowserView>

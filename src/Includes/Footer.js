@@ -12,11 +12,15 @@ return(
         items:[
           {
             description:'GET RIGHT TO THE GOOD PARTS. ',
-          }
+          },
+          {
+            title: '> customerservice@gebriel-motors.com',
+            url: 'mailto:customerservice@gebriel-motors.com',
+          },
         ]
       },
       {
-        title: 'Gebriel Motors',
+        title: 'Quick Links',
         items:[
           {
             title: '> Our Company',
@@ -29,37 +33,29 @@ return(
         ]
       },
       {
-        title: 'Quick Links',
+        title: 'Egypt Branch',
         items:[
           {
-            title: '> Home',
-            url: '#home',
+            title: '(+20) 1027 4033 11',
+            url: 'tel:+20 1027 4033 11',
           },
           {
-            title: '> Products',
-            url: '#products',
+            title: '8 Sengar St., Al Khalafawi, Shubra, Cairo Government, Egypt.',
+            url: 'https://goo.gl/maps/5mdy5Z6kLcosEb3w9',
           },
         ]
       },
       {
-        title: 'Contact Us',
+        title: 'Dubai Branch',
         items:[
           {
             title: '(+971) 545 575 800',
-            url: '#home',
+            url: 'tel:+971 545 575 800',
           },
           {
             title: 'Office A615, Tower A, JAFAZA One Building, Dubai',
-            url: 'https://goo.gl/maps/EfugGU1rL5YfNYNHA',
-          },
-          {
-            title: '(+20) 1027 4033 11',
-            url: '#home',
-          },
-          {
-            title: '8 Sengar St., Al Khalafawi, Shubra, Cairo Government, Egypt.',
-            url: '#home',
-          },
+            url: 'https://goo.gl/maps/ZLk1Aq7XuS2hU4wR8',
+          }
         ]
       },
     ]}
