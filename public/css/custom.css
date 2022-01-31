@@ -142,7 +142,7 @@
 .second-section
 {
   position: relative;
-  top: 5vh !important;
+  top: 1vh !important;
   left: 5px;
 }
 .subtitle
@@ -660,6 +660,10 @@ li[data-index='10'] {
    {
        left: 50px !important;
    }
+   li[data-index='9']
+   {
+       width: 295px !important;
+   }
   .rc-footer-column h2
   {
     margin: 0 auto 0px !important;
@@ -672,5 +676,10 @@ li[data-index='10'] {
   .logo-loader,.loadgo-overlay
   {
     z-index: -1 !important;
+  }
+  .second-section
+  {
+      position: relative;
+      top: 5vh !important;
   }
 }

@@ -534,10 +534,14 @@
         font-size: 100px !important;
         line-height: 120px;
         }
+        .mainSection2 h3
+        {
+            padding-top: 0px !important;
+        }
         .second-section
         {
             position: initial !important;
-            margin-top: -25px !important;
+            margin-top: 0 !important;
         }
         .subtitle
         {

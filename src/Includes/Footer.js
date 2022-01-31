@@ -50,7 +50,7 @@ return(
           },
           {
             title: 'Office A615, Tower A, JAFAZA One Building, Dubai',
-            url: '#home',
+            url: 'https://goo.gl/maps/EfugGU1rL5YfNYNHA',
           },
           {
             title: '(+20) 1027 4033 11',
